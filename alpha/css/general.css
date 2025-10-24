@@ -158,14 +158,14 @@ main.recipe {
     max-width: 60rem;
 }
 
-main.recipe section {
+main.recipe section, a.recipe-card {
     background-color: var(--bg1);
     display: flex;
     flex-flow: column nowrap;
     gap: var(--gap);
 }
 
-main.recipe div.text {
+div.text {
     display: flex;
     flex-flow: column nowrap;
     gap: var(--gap);
@@ -216,3 +216,34 @@ main.recipe picture, main.recipe img {
     }
 }
 
+main.recipe-cards {
+    justify-self: center;
+    display: grid;
+    gap: var(--gap);
+}
+
+a.recipe-card {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0;
+    justify-content: center;
+    text-decoration: none;
+
+    picture, img {
+        max-width: 20rem;
+        width: 100%;
+    }
+}
+
+@media (41.5rem <= width) {
+    main.recipe-cards {grid-template-columns: repeat(2, 1fr);}
+}
+
+@media (62.25rem <= width) {
+    main.recipe-cards {grid-template-columns: repeat(3, 1fr);}
+}
+
+@media (83rem <= width) {
+    main.recipe-cards {grid-template-columns: repeat(4, 1fr);}
+}
