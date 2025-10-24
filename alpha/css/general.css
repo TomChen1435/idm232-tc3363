@@ -2,7 +2,10 @@
 @import url('./clickables.css');
 
 html {scroll-behavior: smooth;}
-* {box-sizing: border-box;}
+* {
+    box-sizing: border-box;
+    text-wrap: pretty;
+}
 .hide {display: none;}
 
 :root {
@@ -37,7 +40,7 @@ html {scroll-behavior: smooth;}
     /* The headings inside the header and the footer need to be black to form contrast against the white background */
     .alt-color, .alt-color * {
         color: var(--black);
-        fill: var(--white);
+        fill: var(--black);
     }
 }
 
@@ -69,6 +72,8 @@ html {scroll-behavior: smooth;}
 
     --icon-ht: 2rem;
     --btn-ht: calc(var(--icon-ht) + var(--gap));
+
+    --component-max-width: calc(100vw - 2 * var(--gap));
 }
 
 h1 {
@@ -80,6 +85,8 @@ h2 {
     font-size: 1.25rem;
     font-weight: 500;
 }
+
+em {font-weight: 600;}
 
 p, li {line-height: 145%;}
 
@@ -106,7 +113,7 @@ p, li {line-height: 145%;}
 header {
     align-items: center;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
@@ -123,20 +130,17 @@ header > .title {
     flex-flow: row nowrap;
     gap: var(--gap);
     justify-content: flex-start;
-    margin: var(--gap);
+    margin: var(--gap) var(--gap) 0;
 }
 
 input {
     margin: var(--gap);
     padding: 0 var(--gap);
-    width: clamp(15rem, calc(100vw - 2 * var(--gap)) , 22rem);
+    width: clamp(15rem, var(--component-max-width), 20rem);
 }
 
-@media (width <= 46.5rem) {
-    header {
-        flex-direction: column;
-        justify-content: flex-start;
-    }
+@media (44.375rem <= width) {
+    header > .title {margin: var(--gap);}
 }
 
 footer {
@@ -145,3 +149,70 @@ footer {
     gap: var(--gap);
     padding: var(--gap);
 }
+
+main.recipe {
+    display: flex;
+    flex-flow: column nowrap; 
+    gap: var(--gap);
+    justify-self: center;
+    max-width: 60rem;
+}
+
+main.recipe section {
+    background-color: var(--bg1);
+    display: flex;
+    flex-flow: column nowrap;
+    gap: var(--gap);
+}
+
+main.recipe div.text {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: var(--gap);
+    justify-content: center;
+    margin: var(--gap);
+}
+
+main.recipe section.prep {
+    padding: var(--gap) 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: var(--gap);
+}
+
+main.recipe section.steps {
+    background-color: var(--bg0);
+    gap: 0;
+}
+
+main.recipe picture, main.recipe img {
+    margin: auto;
+    max-height: 18rem;
+}
+
+.square {aspect-ratio: 1 / 1;}
+
+
+@media (40rem <= width) {
+    main.recipe section {
+        flex-direction: row;
+        padding: 0 var(--gap);
+    }
+
+    main.recipe picture, main.recipe img {max-height: 15rem;}
+
+    main.recipe section.prep {
+        .heading {grid-area: heading;}
+        picture, img {grid-area: image;}
+        .detail {grid-area: detail;}
+
+        display: grid;
+        grid-template: 2fr 3fr / 1fr 2fr;
+        grid-template-areas: 
+        'image heading'
+        'image detail';
+    }
+}
+
