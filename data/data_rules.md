@@ -20,3 +20,8 @@ The data is initially collected with a JSON file, as Excel was super annoying in
         - title / string
         - content / string
         - *stepx* / image / 2 sizes
+
+## Files
+
+- "data0.json" contains all original data
+- Because JSON to CSV conversion tools always flatten the arrays and objects, in "data1.json", arrays and objects are wrapped with quotation marks, so the data gets converted as a string, similar to what manual inputs in spreadsheets would end up with
