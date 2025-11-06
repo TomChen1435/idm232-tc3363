@@ -1,7 +1,7 @@
 .DS_Store
 
 /temp
+/images
 /data/pdf
-/images/stock
 
 .htaccess
