@@ -130,6 +130,54 @@
         ]
     },
     {
+        "title": "Broccoli & Mozzarella Calzones",
+        "subtitle": "with Caesar Salad",
+        "description": "These calzones are loaded with melty fresh mozzarella, creamy ricotta, and tender broccoli—balanced by a tangy tomato dipping sauce. For a refreshing side, weʼre tossing crunchy romaine and briny black olives in our take on Caesar dressing.",
+        "ingredients": [
+            "1 1/2 lbs Pizza Dough",
+            "3 cloves Garlic",
+            "1 Romaine Lettuce Heart",
+            "1 lb Broccoli",
+            "1 cup Part-Skim Ricotta Cheese",
+            "1 8-Ounce Can Tomato Sauce",
+            "1/2 lb Fresh Mozzarella Cheese",
+            "1/4 cup Grated Parmesan Cheese",
+            "2 oz Black Cerignola Olives",
+            "1 Tbsp Italian Seasoning (Whole Dried Basil, Sage, Oregano, Savory, Rosemary, Thyme, & Marjoram)",
+            "1 Lemon"
+        ],
+        "kitchen_tools": {
+            "name": "Olive Wood Spoon by Eddington",
+            "description": "Stir some old-world charm into your next meal with this sturdy spoon made from Italian-grown olive wood. For home cooks and professional chefs alike, this multi-purpose 14” blunt-end spoon is a must-have item. Stain and odor resistant, this spoon will not scratch porcelain, ceramic, glass, or enamel surfaces, and wonʼt heat up while you stir. Each unique olive wood spoon brings a sense of quality and professionalism to even the simplest tasks, like stirring sauce or deglazing a pan."
+        },
+        "steps": [
+            {
+                "title": "Prepare the ingredients",
+                "content": "Remove the <em>dough</em> from the refrigerator to bring to room temperature. Place an oven rack in the center of the oven, then preheat to 475°F. Wash and dry the fresh produce. Cut off and discard the bottom 1/2 inch of the <em>broccoli</em> stem, then roughly chop the broccoli. Peel and roughly chop the <em>garlic</em>. Tear the <em>mozzarella cheese</em> into small pieces. Quarter and deseed the <em>lemon</em>."
+            },
+            {
+                "title": "Cook the broccoli & make the filling",
+                "content": "In a large pan (nonstick, if you have one), heat 2 teaspoons of olive oil on medium-high until hot. Add the <em>chopped broccoli</em>; season with salt and pepper. Cook, stirring occasionally, 4 to 6 minutes, or until lightly browned. Add <em>2/3 of the chopped garlic</em>. Cook, stirring constantly, 30 seconds to 1 minute, or until fragrant. Add <em>1/4 cup of water</em>; season with salt and pepper. Cook, stirring occasionally, 2 to 3 minutes, or until the broccoli has softened and the water has cooked off. Transfer to a large bowl. Add the <em>mozzarella cheese, ricotta cheese, half the Italian seasoning,</em> and <em>the juice of 1 lemon wedge</em>; stir to combine. Season with salt and pepper. Wipe out the pan."
+            },
+            {
+                "title": "Assemble & bake the calzones",
+                "content": "Lightly oil a sheet pan. Divide the <em>dough</em> into 2 equal-sized portions; using your hands and a rolling pin (or wine bottle), gently stretch and roll the portions into ¼-inch-thick rounds. (If the dough is resistant, let rest for 5 minutes.) Divide the <em>filling</em> between the centers of the rounds; fold each round in half over the filling. Using a fork, crimp the edges of the dough to seal. Transfer to the sheet pan. Using a fork, poke a few holes across the tops of the calzones to vent. Lightly drizzle the calzones with olive oil. Bake 16 to 18 minutes, or until golden brown. Transfer to a cutting board and let stand for at least 2 minutes."
+            },
+            {
+                "title": "Prepare the remaining ingredients",
+                "content": "While the calzones bake, using the flat side of your knife, smash the <em>olives</em>; remove and discard the pits, then roughly chop. Cut off and discard the root end of the <em>lettuce</em>; roughly chop the leaves. To make the dressing, in a large bowl, combine the <em>mayonnaise, half the parmesan cheese, the juice of the remaining lemon wedges</em>, and a drizzle of olive oil. Season with salt and pepper to taste."
+            },
+            {
+                "title": null,
+                "content": "While the calzones continue to bake, in the pan used to cook the broccoli, heat 2 teaspoons of olive oil on medium-high until hot. Add the <em>remaining chopped garlic</em>; cook, stirring constantly, 30 seconds to 1 minute, or until fragrant. Add the <em>tomato sauce</em> and <em>remaining Italian seasoning</em>. Cook, stirring frequently, 2 to 3 minutes, or until slightly thickened. Turn off the heat and season with salt and pepper to taste."
+            },
+            {
+                "title": "Make the salad & serve your dish",
+                "content": "Just before serving, add the <em>chopped olives and lettuce</em> to the bowl of <em>dressing</em>. Toss to coat; season with salt and pepper to taste. Cut the <em>baked calzones</em> in half. Serve with the <em>sauce</em> and salad on the side. Garnish with the <em>remaining parmesan cheese</em>. Enjoy!"
+            }
+        ]
+    },
+    {
         "title": "",
         "subtitle": "",
         "description": "",
