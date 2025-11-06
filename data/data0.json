@@ -178,20 +178,39 @@
         ]
     },
     {
-        "title": "",
-        "subtitle": "",
-        "description": "",
+        "title": "Bucatini Alfredo",
+        "subtitle": "with Broccoli",
+        "description": "This quick-cooking recipe captures all the deliciously creamy, rich flavor of the classic Italian-American sauce—with the welcome addition of quick-braised broccoli. A dusting of pecorino cheese completes each bowl with a touch of sharpness.",
         "ingredients": [
-            ""
+            "2 Tbsps Crème Fraîche",
+            "1/4 tsp Crushed Red Pepper Flakes",
+            "3 Tbsps All-Purpose Flour",
+            "1/4 cup Grated Pecorino Cheese"
         ],
         "kitchen_tools": {
-            "name": "",
-            "description": ""
+            "name": "Stainless Steel Strainer",
+            "description": "A stainless steel strainer is a handy tool for quinoa. It's great for draining grains and pastas (not to mention small fruits and vegetables after washing) and straining stocks and gravy. Lightweight and sturdy, itʼs constructed with a double-fine mesh."
         },
         "steps": [
             {
+                "title": "Prepare the ingredients",
+                "content": "Heat a large pot of salted water to boiling on high. Wash and dry the fresh produce. Cut off and discard the bottom 1/2 inch of the <b>broccoli</b> stem; cut the broccoli into small pieces, keeping the florets intact. Peel and finely chop the <b>garlic</b>."
+            },
+            {
+                "title": "Cook the broccoli",
+                "content": "In a large pan, heat 2 teaspoons of olive oil on medium-high until hot. Add the <b>broccoli pieces</b>; season with salt and pepper. Cook, stirring occasionally, 4 to 5 minutes, or until slightly softened. Add <b>1/2 cup of water</b>; season with salt and pepper. Cover the pan with aluminum foil and cook 3 to 4 minutes, or until the broccoli has softened and the water has cooked off. Transfer to a bowl. Wipe out the pan."
+            },
+            {
                 "title": null,
-                "content": ""
+                "content": "While the broccoli cooks, add the <b>pasta</b> to the pot of boiling water and cook 8 to 10 minutes, or until al dente (still slightly firm to the bite). Reserving <b>1/2 cup of the pasta cooking water</b>, drain thoroughly."
+            },
+            {
+                "title": null,
+                "content": "In the same pan, heat 1 1/2 tablespoons of olive oil on medium-high until hot. Add the <b>chopped garlic</b>; season with salt and pepper. Cook, stirring constantly, 30 seconds to 1 minute, or until fragrant. Add the <b>flour</b> and <b>as much of the red pepper flakes as you’d like</b>, depending on how spicy you’d like the dish to be. Cook, stirring constantly, 30 seconds to 1 minute, or until thoroughly combined. Add the <b>heavy cream </b>(shaking the bottle just before opening)<b>, verjus,</b> and <b>1 1/4 cups of water</b>; season with salt and pepper. Cook, whisking frequently, 2 to 3 minutes, or until thickened; season with salt and pepper to taste."
+            },
+            {
+                "title": "Finish & serve your dish",
+                "content": "Add the <b>cooked pasta, cooked broccoli, crème fraîche,</b> and <b>half the reserved pasta cooking water</b> to the pan. Cook, stirring vigorously, 30 seconds to 1 minute, or until the pasta is thoroughly coated. (If the sauce seems dry, gradually add the remaining pasta cooking water to achieve your desired consistency.) Turn off the heat and season with salt and pepper to taste. Garnish the finished pasta with the <b>cheese</b>; season with pepper. Enjoy!"
             }
         ]
     },
