@@ -6,20 +6,20 @@ The data is initially collected with a JSON file, as Excel was super annoying in
 
 - title / string
 - subtitle / string
-- *banner* / image
+- **banner** / image
 - description / string
 - ingredients / array
     - items / string
-    - *ingredients* / image
+    - **ingredients** / image
 - kitchen_tools / object
     - name / string
     - description / string
-    - *kt* / image / 2 sizes
+    - **kt** / image / **2 sizes**
 - steps / array
     - items / object
         - title / string
         - content / string
-        - *stepx* / image / 2 sizes
+        - **stepX** / image / **2 sizes**
 
 ## Files
 
