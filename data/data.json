@@ -350,20 +350,46 @@
         ]
     },
     {
-        "title": "",
-        "subtitle": "",
-        "description": "",
+        "title": "General Tso's Chicken",
+        "subtitle": "with Bok Choy & Jasmine Rice",
+        "description": "In this quick-cooking spin on a takeout favorite, hoisin sauce, honey, sriracha, and sesame oil lend our chicken the sweet, spicy, and nutty flavors General Tsoʼs is known for. A light dusting of cornstarch on the chicken just before it hits the pan creates a delicately crispy exterior (and helps it soak up the irresistible sauce later).",
         "ingredients": [
-            ""
+            "10 oz Chopped Chicken Breast",
+            "1 head Baby Bok Choy",
+            "3/4 cup Jasmine Rice",
+            "2 cloves Garlic",
+            "1 Tbsp Rice Vinegar",
+            "1 1-Inch Piece Ginger",
+            "1 tsp Sriracha",
+            "1 Tbsp Honey",
+            "1 Tbsp Sesame Oil",
+            "1/4 cup Cornstarch",
+            "2 Tbsps Hoisin Sauce"
         ],
         "kitchen_tools": {
-            "name": "",
-            "description": ""
+            "name": "Olive Wood Spoon by Eddington",
+            "description": "Stir some old-world charm into your next meal with this sturdy spoon made from Italian-grown olive wood. For home cooks and professional chefs alike, this multi-purpose 14” blunt-end spoon is a must-have item. Stain and odor resistant, this spoon will not scratch porcelain, ceramic, glass, or enamel surfaces, and wonʼt heat up while you stir. Each unique olive wood spoon brings a sense of quality and professionalism to even the simplest tasks, like stirring sauce or deglazing a pan."
         },
         "steps": [
             {
                 "title": null,
-                "content": ""
+                "content": "Remove the <b>honey</b> from the refrigerator to bring to room temperature. In a medium saucepan, combine the <b>rice, a big pinch of salt,</b> and <b>1 1/2 cups of water</b>; heat to boiling on high. Once boiling, cover and reduce the heat to low. Cook 12 to 14 minutes, or until the water has been absorbed and the rice is tender. Turn off the heat and fluff with a fork. Cover to keep warm."
+            },
+            {
+                "title": "Coat & cook the chicken",
+                "content": "While the rice cooks, pat the <b>chicken</b> dry with paper towels. Place in a large bowl and season with salt and pepper. Add the <b>cornstarch</b>; toss to thoroughly coat. In a medium pan, heat a thin layer of oil on medium-high until hot. Once the oil is hot enough that a piece of chicken sizzles immediately when added to the pan, add the coated chicken in an even layer (tapping off any excess cornstarch before adding). Cook, without stirring, 3 to 4 minutes, or until lightly browned. Continue to cook, stirring occasionally, 3 to 4 minutes, or until browned and cooked through. Leaving any browned bits (or fond) in the pan, transfer to a plate. Set aside in a warm place"
+            },
+            {
+                "title": "Prepare the ingredients & make the sauce",
+                "content": "While the chicken cooks, wash and dry the fresh produce. Cut off and discard the root end of the <b>bok choy</b>; roughly chop. Peel and finely chop the <b>ginger</b>. Peel and roughly chop the <b>garlic</b>. In a bowl, combine the <b>hoisin sauce, vinegar, honey</b> (kneading the packet before opening)<b>, sesame oil, 1 tablespoon of water,</b> and <b>as much of the sriracha as you’d like</b>, depending on how spicy you’d like the dish to be."
+            },
+            {
+                "title": null,
+                "content": "Add the <b>chopped bok choy, ginger,</b> and <b>garlic</b> to the pan of reserved fond; season with salt and pepper. (If the pan seems dry, add 1 tablespoon of olive oil.) Cook on medium-high, stirring frequently, 2 to 3 minutes, or until softened and fragrant. Add the <b>sauce</b> and cook, stirring constantly and scraping up any fond, 30 seconds to 1 minute, or until thoroughly combined."
+            },
+            {
+                "title": "Finish & serve your dish",
+                "content": "Turn off the heat and add the <b>cooked chicken</b> to the pan; stir to thoroughly coat. Season with salt and pepper to taste. Serve the finished chicken and bok choy with the <b>cooked rice</b>. Enjoy!"
             }
         ]
     },
