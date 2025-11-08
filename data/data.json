@@ -394,20 +394,132 @@
         ]
     },
     {
-        "title": "",
-        "subtitle": "",
-        "description": "",
+        "title": "Hoisin-Glazed Pork Chops",
+        "subtitle": "with Stir-Fried Vegetables & Wonton Noodles",
+        "description": "Delightfully chewy wonton noodles tossed in a nutty, savory sauce are a delicious accompaniment to these pork chops. For depth of flavor, weʼre pan-searing the pork chops, then glazing them with barbecue-like hoisin, whose sweetness perfectly matches bites of sautéed carrots in the noodles.",
         "ingredients": [
-            ""
+            "4 Boneless, Center-Cut Pork Chops",
+            "2 Carrots",
+            "1 bunch Chives",
+            "2 Tbsps Tahini",
+            "2 Tbsps Soy Sauce",
+            "3/4 lb Fresh Wonton Noodles",
+            "2 tsps Sambal Oelek",
+            "1 1-Inch Piece Ginger",
+            "1/4 cup Hoisin Sauce"
         ],
         "kitchen_tools": {
-            "name": "",
-            "description": ""
+            "name": "Stainless Steel Strainer",
+            "description": "A stainless steel strainer is a handy tool for quinoa. It's great for draining grains and pastas (not to mention small fruits and vegetables after washing) and straining stocks and gravy. Lightweight and sturdy, itʼs constructed with a double-fine mesh."
         },
         "steps": [
             {
+                "title": "Prepare the ingredients",
+                "content": "Fill a medium pot with water; add <b>a pinch of salt</b>. Heat to boiling on high. Wash and dry the fresh produce. Peel and finely chop the <b>ginger</b>. Cut out and discard the core of the <b>cabbage</b>; thinly slice the leaves. Peel the <b>carrots</b> and thinly slice into rounds. Thinly slice the <b>chives</b>."
+            },
+            {
+                "title": "Cook the vegetables",
+                "content": "In a large pan, heat 2 teaspoons of olive oil on medium-high until hot. Add the <b>chopped ginger, sliced cabbage,</b> and <b>sliced carrots</b>; season with salt and pepper. Cook, stirring occasionally, 4 to 5 minutes, or until softened and fragrant. Transfer to a bowl and cover with aluminum foil to keep warm. Rinse and wipe out the pan."
+            },
+            {
+                "title": "Cook & glaze the pork chops",
+                "content": "Pat the <b>pork chops</b> dry with paper towels; season with salt and pepper on both sides. In the same pan, heat 1 tablespoon of olive oil on medium-high until hot. Add the seasoned pork chops and cook 3 to 5 minutes on the first side, or until browned. Flip and cook 2 to 3 minutes, or until lightly browned. Add the <b>hoisin sauce</b> and <b>1/4 cup of water</b>. Cook, frequently spooning the glaze over the pork, 2 to 3 minutes, or until the pork chops are coated and cooked through. Turn off the heat."
+            },
+            {
                 "title": null,
-                "content": ""
+                "content": "While the pork chops cook, in a bowl, whisk together the <b>soy sauce, tahini, vinegar,</b> and <b>as much of the sambal oelek as you’d like</b>, depending on how spicy you’d like the dish to be. Season with salt and pepper to taste."
+            },
+            {
+                "title": null,
+                "content": "While the pork chops continue to cook, using your hands, carefully separate the <b>noodles</b> and add to the pot of boiling water; cook, stirring occasionally, 2 to 4 minutes, or until tender. Turn off the heat. Drain thoroughly and return to the pot."
+            },
+            {
+                "title": "Finish the noodles & serve your dish",
+                "content": "Add the <b>cooked vegetables, sauce,</b> and <b>1/4 cup of water</b> to the pot of <b>cooked noodles</b>. Cook on medium-high, stirring constantly, 30 seconds to 1 minute, or until thoroughly combined. Turn off the heat. Season with salt and pepper to taste. Serve the finished noodles topped with the <b>glazed pork chops</b> (including any glaze from the pan). Garnish with the <b>sliced chives</b>. Enjoy!"
+            }
+        ]
+    },
+    {
+        "title": "Honey-Butter Barramundi",
+        "subtitle": "with Za'atar Roasted Vegetables",
+        "description": "This Middle Eastern recipe pairs crispy barramundi—served in a family-friendly pan sauce of honey and butter—with a medley of winter vegetables. For savory, herby flavor, weʼre seasoning the vegetables with zaʼatar before roasting them.",
+        "ingredients": [
+            "4 Skin-On Barramundi Fillets",
+            "1/2 cup Plain Greek Yogurt",
+            "1 1/8 lbs Yukon Gold Potatoes",
+            "1 Tbsp Za'atar Seasoning (Ground Sumac, Sesame Seeds, Salt, Ground Thyme, Whole Dried Oregano, & Crushed Aleppo Pepper)"
+        ],
+        "kitchen_tools": {
+            "name": "Large Maple Cutting Board by John Boos & Co. for Blue Apron",
+            "description": "Built to last, this chopping board is prized by professional chefs and so gorgeous we never want to take it off the counter. Crafted with hardy American maple, this exclusive collaboration between Blue Apron and John Boos & Co. is equal parts beautiful and handy. Its durable surface wonʼt warp and is resistant to scoring; magically, it also helps keep your blades sharper than other materials. Youʼll find these boards in our test kitchen—as well as professional kitchens around the world."
+        },
+        "steps": [
+            {
+                "title": "Prepare the ingredients",
+                "content": "Remove the <b>honey</b> from the refrigerator to bring to room temperature. Place an oven rack in the center of the oven, then preheat to 450°F. Wash and dry the fresh produce. Halve the <b>potatoes</b> lengthwise; cut crosswise into 1/4-inch pieces. Peel the <b>carrots</b>; halve lengthwise, then cut crosswise into 1/2-inch pieces. Cut off and discard the ends of the <b>radishes</b>; quarter lengthwise, then halve crosswise. Quarter and deseed the <b>lemon</b>. Peel and finely chop the <b>garlic</b>; using the flat side of your knife, smash until it resembles a paste (or use a zester). Roughly chop the <b>parsley</b> leaves and stems."
+            },
+            {
+                "title": "Roast the vegetables",
+                "content": "Place the <b>sliced potatoes</b> and <b>carrot pieces</b> on a sheet pan. Drizzle with 1 tablespoon of olive oil; season with salt, pepper, and the <b>za’atar seasoning</b>. Toss to coat. Arrange in an even layer on one side of the sheet pan. Roast 12 to 14 minutes, or until lightly browned. Leaving the oven on, remove from the oven. Place the <b>radish pieces</b> in a bowl. Drizzle with olive oil and season with salt and pepper; toss to coat. Carefully arrange on the other side of the sheet pan. Roast 10 to 12 minutes, or until tender when pierced with a fork. Remove from the oven. Evenly top with <b>the juice of 2 lemon wedges</b>."
+            },
+            {
+                "title": "Make the yogurt sauce",
+                "content": "While the vegetables roast, in a bowl, combine the <b>yogurt, the juice of the remaining lemon wedges, 1 tablespoon of olive oil,</b> and <b>as much of the garlic paste as you’d like</b>. Drizzle with olive oil and season with salt and pepper to taste."
+            },
+            {
+                "title": null,
+                "content": "Once the vegetables have roasted for about 10 minutes, pat the <b>fish fillets</b> dry with paper towels; season with salt and pepper on both sides. In a large pan (nonstick, if you have one), heat 1 tablespoon of olive oil on medium-high until hot. Add the seasoned fillets, skin side down. Cook 4 to 6 minutes on the first side, or until lightly browned. Flip and add the <b>butter</b>. Cook, frequently spooning the butter over the fillets, 2 to 3 minutes, or until the fish is cooked through. Leaving the melted butter and any browned bits (or fond) in the pan, transfer the cooked fillets to a plate."
+            },
+            {
+                "title": "Make the pan sauce",
+                "content": "Add the <b>honey</b> (kneading the packet before opening) and <b>2 tablespoons of water</b> to the pan of melted butter (be careful, as the liquid may splatter). Cook on medium-high, stirring frequently and scraping up any fond, 30 seconds to 1 minute, or until slightly thickened. Turn off the heat and season with salt and pepper to taste."
+            },
+            {
+                "title": null,
+                "content": "Serve the <b>cooked fish fillets</b> and <b>roasted vegetables</b> with the <b>yogurt sauce</b> on the side. Top the fish with the <b>pan sauce</b>. Garnish with the <b>chopped parsley</b>. Enjoy!"
+            }
+        ]
+    },
+    {
+        "title": "Kale & Ricotta Quiche",
+        "subtitle": "with Romaine, Apple, & Almond Salad",
+        "description": "This crowd-pleasing quiche showcases a rich, eggy filling made with ricotta and cream — balanced by hearty sautéed kale. On the side, weʼre serving a refreshing salad of crisp romaine and apple, wrapped in a creamy lemon dressing.",
+        "ingredients": [
+            "4 Cage-Free Farm Eggs",
+            "1 cup Part-Skim Ricotta Cheese",
+            "1 Romaine Lettuce Heart",
+            "2 Tbsps Sliced Roasted Almonds",
+            "1 Tbsp Cajun Spice Blend (Smoked Paprika, Ground Yellow Mustard, Onion Powder, Garlic Powder, Whole Dried Oregano, Whole Dried Thyme, & Cayenne Pepper)",
+            "2 Tbsps Crème Fraîche"
+        ],
+        "kitchen_tools": {
+            "name": "Large Maple Cutting Board by John Boos & Co. for Blue Apron",
+            "description": "Built to last, this chopping board is prized by professional chefs and so gorgeous we never want to take it off the counter. Crafted with hardy American maple, this exclusive collaboration between Blue Apron and John Boos & Co. is equal parts beautiful and handy. Its durable surface wonʼt warp and is resistant to scoring; magically, it also helps keep your blades sharper than other materials. Youʼll find these boards in our test kitchen—as well as professional kitchens around the world."
+        },
+        "steps": [
+            {
+                "title": "Prepare the ingredients",
+                "content": "Preheat the oven to 425°F. Wash and dry the fresh produce. Peel and roughly chop the <b>garlic</b>. Peel and thinly slice the <b>shallot</b>. Remove and discard the stems of the <b>kale</b>; roughly chop the leaves. Quarter and deseed the <b>lemon</b>."
+            },
+            {
+                "title": null,
+                "content": "In a large pan, heat 2 teaspoons of olive oil on medium-high until hot. Add the <b>chopped garlic</b> and <b>sliced shallot</b>; season with salt and pepper. Cook, stirring occasionally, 1 to 2 minutes, or until softened and fragrant. Add the <b>chopped kale, heavy cream</b> (shaking the bottle just before opening), and <b>1/4 cup of water</b>; season with salt and pepper. Cook, stirring occasionally, 4 to 5 minutes, or until the kale has wilted and most of the liquid has cooked off. Turn off the heat. Season with salt and pepper to taste."
+            },
+            {
+                "title": null,
+                "content": "Crack the <b>eggs</b> into a large bowl. Add the <b>ricotta cheese, the juice of 1 lemon wedge,</b> and the <b>spice blend</b>; season with salt and pepper. Whisk to thoroughly combine. Stir in the <b>cooked kale</b>."
+            },
+            {
+                "title": "Assemble & bake the quiche",
+                "content": "Place the <b>pie crust</b> on a sheet pan, leaving it in its tin. Carefully pour the <b>filling</b> into the crust; season with salt and pepper. Bake 24 to 26 minutes, or until the crust is browned and the filling is set and cooked through. Remove from the oven. Let stand for at least 5 minutes before serving."
+            },
+            {
+                "title": "Prepare the remaining ingredients",
+                "content": "While the quiche bakes, quarter and core the <b>apple</b>; thinly slice lengthwise. Place in a bowl and top with <b>the juice of 1 lemon wedge</b> to prevent browning. Cut off and discard the root end of the <b>lettuce</b>; roughly chop the leaves. To make the dressing, in a large bowl, combine the <b>crème fraîche, the juice of the remaining lemon wedges</b>, and a drizzle of olive oil. Season with salt and pepper to taste."
+            },
+            {
+                "title": "Make the salad & serve your dish",
+                "content": "Just before serving, add the <b>sliced apple</b> and <b>chopped lettuce</b> to the bowl of <b>dressing</b>. Toss to combine; season with salt and pepper to taste. Serve the <b>baked quiche</b> with the salad on the side. Garnish the salad with the <b>almonds</b>. Enjoy!"
             }
         ]
     },
@@ -426,39 +538,23 @@
             {
                 "title": null,
                 "content": ""
-            }
-        ]
-    },
-    {
-        "title": "",
-        "subtitle": "",
-        "description": "",
-        "ingredients": [
-            ""
-        ],
-        "kitchen_tools": {
-            "name": "",
-            "description": ""
-        },
-        "steps": [
+            },
             {
                 "title": null,
                 "content": ""
-            }
-        ]
-    },
-    {
-        "title": "",
-        "subtitle": "",
-        "description": "",
-        "ingredients": [
-            ""
-        ],
-        "kitchen_tools": {
-            "name": "",
-            "description": ""
-        },
-        "steps": [
+            },
+            {
+                "title": null,
+                "content": ""
+            },
+            {
+                "title": null,
+                "content": ""
+            },
+            {
+                "title": null,
+                "content": ""
+            },
             {
                 "title": null,
                 "content": ""
