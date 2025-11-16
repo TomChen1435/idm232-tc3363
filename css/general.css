@@ -1,0 +1,86 @@
+@import url('./reset.css');
+
+* {
+    box-sizing: border-box;
+    height: fit-content;
+    text-wrap: pretty;
+    width: fit-content;
+}
+
+/* Variables */
+
+:root {
+    --gap12: 0.75rem;
+    --gap16: 1rem;
+    --gap24: 1.5rem;
+
+    --icon-ht: 2.5rem;
+    --btn-ht: 3rem;
+}
+
+/* Typography */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(/fonts/OpenSans.ttf) format("truetype");
+    font-style: normal;
+}
+
+:root {
+    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+}
+
+/* Grayscale */
+
+:root {
+    --intensity-txt: 18;
+    --txt-black: oklab(calc(1 / var(--intensity-txt)) 0 0);
+    --txt-white: oklab(calc(1 - (1 / var(--intensity-txt))) 0 0);
+
+    --intensity-bg: 6;
+    --bg-black: oklab(calc(1 / var(--intensity-bg)) 0 0);
+    --bg-white: oklab(calc(1 - (1 / var(--intensitybg))) 0 0);
+}
+
+/* Color */
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --red: rgb(255,56,60);
+        --orange: rgb(255,141,40);
+        --yellow: rgb(255,204,0);
+        --blue: rgb(0,136,255);
+        --indigo: rgb(97,85,245);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --red: rgb(255,66,69);
+        --orange: rgb(255,146,48);
+        --yellow: rgb(255,214,0);
+        --blue: rgb(0,145,255);
+        --indigo: rgb(109,124,255);
+    }
+}
+
+/* Forbid screen to shrink beyond 320px */
+
+html, body, body > * {
+    min-width: 20rem;
+    width: 100%;
+}
+
+/* Basic components */
+
+body {
+    background-color: var(--bg-white);
+}
+
+body * {
+    transition: all 250ms ease-in-out;
+}
+
+button {
+    cursor: pointer;
+}
