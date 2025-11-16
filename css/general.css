@@ -7,6 +7,8 @@
     width: fit-content;
 }
 
+.hide {display: none !important;}
+
 /* Variables */
 
 :root {
@@ -33,13 +35,15 @@
 /* Grayscale */
 
 :root {
-    --intensity-txt: 18;
+    --intensity-txt: 32;
     --txt-black: oklab(calc(1 / var(--intensity-txt)) 0 0);
     --txt-white: oklab(calc(1 - (1 / var(--intensity-txt))) 0 0);
 
-    --intensity-bg: 6;
+    --intensity-bg: 8;
     --bg-black: oklab(calc(1 / var(--intensity-bg)) 0 0);
     --bg-white: oklab(calc(1 - (1 / var(--intensitybg))) 0 0);
+
+    --gray: oklab(0.4 0 0);
 }
 
 /* Color */
@@ -74,7 +78,11 @@ html, body, body > * {
 /* Basic components */
 
 body {
+    align-items: center;
     background-color: var(--bg-white);
+    display: flex;
+    flex-flow: column nowrap;
+    gap: var(--gap24);
 }
 
 body * {
@@ -82,5 +90,10 @@ body * {
 }
 
 button {
+    border: none !important;
     cursor: pointer;
+}
+
+p {
+    line-height: 145%;
 }

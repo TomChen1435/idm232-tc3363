@@ -6,13 +6,13 @@
     <title>Wooden Ladle Recipes</title>
     <link rel="stylesheet" href="/css/general.css">
 </head>
-<body>
+<body class="no-result">
 
     <?php include './php/header.php' ?>
 
-    <main class="menu"><?php include './php/home.php' ?></main>
-    <main class="recipe"><?php include './php/recipe.php' ?></main>
-    <main class="filter"><?php include './php/filter_results.php' ?></main>
+    <main class="menu hide"><?php include './php/home.php' ?></main>
+    <main class="recipe hide"><?php include './php/recipe.php' ?></main>
+    <main class="filter hide"><?php include './php/filter_results.php' ?></main>
     <main class="no-result"><?php include './php/no_result.php' ?></main>
     
     <footer>
