@@ -6,14 +6,14 @@
     <title>Wooden Ladle Recipes</title>
     <link rel="stylesheet" href="/css/general.css">
 </head>
-<body class="no-result">
+<body>
 
     <?php include './php/header.php' ?>
 
     <main class="menu hide"><?php include './php/home.php' ?></main>
     <main class="recipe hide"><?php include './php/recipe.php' ?></main>
     <main class="filter hide"><?php include './php/filter_results.php' ?></main>
-    <main class="no-result"><?php include './php/no_result.php' ?></main>
+    <main class="no-result hide"><?php include './php/no_result.php' ?></main>
     
     <footer>
         <p>&copy; 2025 Wooden Ladle Recipes, for educational use only.</p>
