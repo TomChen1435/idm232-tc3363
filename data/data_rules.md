@@ -5,7 +5,12 @@ The data is initially collected with a JSON file, as Excel was super annoying in
 ## Structure
 
 - title / string
+    - all letters are lowercased 
+    - "-" becomes "_" 
+    - "&" is removed 
 - subtitle / string
+    - rules for title also apply here
+    - concatenate with "_" 
 - **banner** / image
 - description / string
 - ingredients / array
