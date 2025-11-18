@@ -1407,53 +1407,6 @@
     },
     {
         "id": 32,
-        "title": "Spicy Pork & Korean Rice Cakes",
-        "subtitle": "with Bok Choy",
-        "description": "In this crowd&#45;pleasing recipe, a savory and spicy sauce &#40;balanced by a touch of cooling crème fraîche&#41; brings together ground pork, bok choy, and aromatics&#46; We&#39;re mixing in delightfully chewy tteok, or rice cakes &#45; a staple of Korean cuisine&#46;",
-        "ingredients": [
-            "1 lb Korean Rice Cakes",
-            "2 cloves Garlic",
-            "2 heads Baby Bok Choy",
-            "2 Tbsps Soy Glaze",
-            "1 1&#47;2 Tbsps Gochujang",
-            "1 1&#45;Inch Piece Ginger",
-            "1&#47;4 cup Black Bean Sauce",
-            "1&#47;4 cup Crème Fraîche",
-            "1 bunch Chives"
-        ],
-        "kitchen_tools": {
-            "name": "Large Maple Cutting Board by John Boos & Co&#46; for Blue Apron",
-            "description": "Built to last, this chopping board is prized by professional chefs and so gorgeous we never want to take it off the counter&#46; Crafted with hardy American maple, this exclusive collaboration between Blue Apron and John Boos & Co&#46; is equal parts beautiful and handy&#46; Its durable surface won&#39;t warp and is resistant to scoring; magically, it also helps keep your blades sharper than other materials&#46; You&#39;ll find these boards in our test kitchen&#45;as well as professional kitchens around the world&#46;"
-        },
-        "steps": [
-            {
-                "title": "Prepare the ingredients",
-                "content": "Heat a large pot of salted water to boiling on high&#46; Wash and dry the fresh produce&#46; Peel and finely chop the ginger&#46; Peel and roughly chop the garlic&#46; Cut off and discard the root end of the bok choy; roughly chop the leaves and stems, keeping them separate&#46; Thinly slice the chives&#46;"
-            },
-            {
-                "title": null,
-                "content": "In a large pan, heat 2 teaspoons of olive oil on medium until hot&#46; Add the ground pork &#40;removing and discarding the paper lining from the bottom&#41;; season with salt and pepper&#46; Cook, frequently breaking the meat apart with a spoon, 4 to 6 minutes, or until lightly browned&#46;"
-            },
-            {
-                "title": null,
-                "content": "Add the chopped ginger and garlic to the pan; season with salt and pepper&#46; Cook, stirring occasionally, 2 to 3 minutes, or until softened and the pork is cooked through&#46;"
-            },
-            {
-                "title": null,
-                "content": "To the pan, add the chopped bok choy stems, soy glaze, black bean sauce, 1&#47;2 cup of water, and as much of the gochujang as you’d like, depending on how spicy you’d like the dish to be&#46; Cook, stirring occasionally, 3 to 4 minutes, or until the bok choy stems have softened and the liquid has thickened&#46; Turn off the heat&#46; Season with salt and pepper to taste&#46;"
-            },
-            {
-                "title": "Cook the rice cakes",
-                "content": "While the sauce cooks, add the rice cakes to the pot of boiling water and cook 2 to 3 minutes, or until tender&#46; Drain thoroughly&#46;"
-            },
-            {
-                "title": "Finish & serve your dish",
-                "content": "Add the cooked rice cakes and chopped bok choy leaves to the pan of cooked pork and sauce; season with salt and pepper&#46; Cook on medium&#45;high, stirring frequently, 1 to 2 minutes, or until the rice cakes are thoroughly coated and the bok choy leaves are slightly wilted&#46; Turn off the heat; stir in the crème fraîche and half the sliced chives&#46; Season with salt and pepper to taste&#46; Garnish the finished pork and rice cakes with the remaining sliced chives&#46; Enjoy!"
-            }
-        ]
-    },
-    {
-        "id": 33,
         "title": "Sweet & Sour Vegetable Stir&#45;Fry",
         "subtitle": "with Fried Eggs & Peanuts",
         "description": "Two kinds of citrus &#45; seasonal orange and lemon &#45; give the sauce for our stir&#45;fried vegetables its irresistible sweet&#45;sour balance&#46; The carrots, celery, and bok choy perfectly contrast a rich fried egg and fluffy, radish&#45;studded white rice&#46;",
@@ -1495,7 +1448,7 @@
         ]
     },
     {
-        "id": 34,
+        "id": 33,
         "title": "Thai Curry Chicken",
         "subtitle": "with Carrots & Bok Choy",
         "description": "In tonight&#39;s dish, the spicy and aromatic flavors of yellow curry paste &#45; a Thai staple &#45; shine through a lightly sweet coconut milk broth&#46; Sautéed chicken, carrots, and bokchoy give the curry plenty of hearty texture, while fluffy rice eagerly soaks up all the complex flavors&#46; &#40;Chefs, this curry paste packs a punch of heat, so be sure to use only as much as you&#39;d like!&#41;",
@@ -1537,7 +1490,7 @@
         ]
     },
     {
-        "id": 35,
+        "id": 34,
         "title": "Tilapia & Black Lentil Salad",
         "subtitle": "with Lemon Pan Sauce",
         "description": "In this dish, we&#39;re putting a twist on Italian gremolata: adding pickled peppers to the classic parsley, garlic, and lemon condiment&#46; The bright, tangy flavors perk up a hearty salad of black lentils and roasted broccoli&#46; We&#39;re also using lemon juice as the base for an easy pan sauce to serve over our seared tilapia&#46;",
@@ -1583,7 +1536,7 @@
         ]
     },
     {
-        "id": 36,
+        "id": 35,
         "title": "Top Chef Seared Grassfed Steaks",
         "subtitle": "with Sweet Chili&#45;Glazed Vegetables",
         "description": "In this recipe, inspired by our Quickfire Challenge from Top Chef Season 15 on Bravo, simple grassfed steaks and rice get a sweet, tart, and spicy lift from glazed mushrooms and bok choy&#46; Sliced radishes, softened a bit with lime juice, finish the dish off with subtle crunch&#46;",
