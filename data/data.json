@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "title": "Ancho&#45;Orange Chicken",
         "subtitle": "with Kale Rice & Roasted Carrots",
         "description": "We&#39;re amping up chicken breasts with a glaze of smoky ancho chile paste and fresh orange juice in this recipe&#46; On the side, roasted carrots and lightly creamy, golden raisin&#45;studded rice perfectly accent the sweetness of the glaze&#46;",
@@ -41,6 +42,7 @@
         ]
     },
     {
+        "id": 2,
         "title": "Beef Medallions & Mushroom Sauce",
         "subtitle": "with Mashed Potatoes",
         "description": "In this easy recipe, inspired by steak Diane &#40;an American restaurant classic&#41;, we&#39;re searing beef medallions, then using the fond in the pan to make a rich, bright mushroom sauce for spooning on top&#46; Garlic mashed potatoes and sautéed kale make for delicious, simple sides&#46;",
@@ -80,6 +82,7 @@
         ]
     },
     {
+        "id": 3,
         "title": "Broccoli & Basil Pesto Sandwiches",
         "subtitle": "with Romaine & Citrus Salad",
         "description": "These Italian focaccia sandwiches are layered with broccoli, three cheeses, and a savory basil, cashew, and pine nut pesto, then baked in the oven to meld all the bright, aromatic flavors&#46; On the side, we&#39;re serving a refreshing salad of romaine and seasonal clementine, dressed in a creamy dressing made with fresh clementine juice&#46;",
@@ -130,6 +133,7 @@
         ]
     },
     {
+        "id": 4,
         "title": "Broccoli & Mozzarella Calzones",
         "subtitle": "with Caesar Salad",
         "description": "These calzones are loaded with melty fresh mozzarella, creamy ricotta, and tender broccoli&#45;balanced by a tangy tomato dipping sauce&#46; For a refreshing side, we&#39;re tossing crunchy romaine and briny black olives in our take on Caesar dressing&#46;",
@@ -178,6 +182,7 @@
         ]
     },
     {
+        "id": 5,
         "title": "Bucatini Alfredo",
         "subtitle": "with Broccoli",
         "description": "This quick&#45;cooking recipe captures all the deliciously creamy, rich flavor of the classic Italian&#45;American sauce&#45;with the welcome addition of quick&#45;braised broccoli&#46; A dusting of pecorino cheese completes each bowl with a touch of sharpness&#46;",
@@ -215,6 +220,7 @@
         ]
     },
     {
+        "id": 6,
         "title": "Bucatini & Tomato Sauce",
         "subtitle": "with Roasted Broccoli",
         "description": "Made with petite datterini tomatoes, the sauce for tonight&#39;s bucatini highlights briny olives and capers, hot red pepper flakes, and savory Grana Padano cheese&#46; We&#39;re mixing in roasted broccoli for contrasting texture and nutty&#45;sweet flavor&#46;",
@@ -258,6 +264,7 @@
         ]
     },
     {
+        "id": 7,
         "title": "Cheesy Enchiladas Rojas",
         "subtitle": "with Mushrooms & Kale",
         "description": "Our hearty vegetarian enchiladas are filled with a combination of fragrant, Mexican&#45;spiced rice and sautéed mushrooms and kale&#46; For even more flavor, we&#39;re baking them under a smoky&#45;sweet tomato sauce flavored with ancho chile paste and a layer of melty white cheddar&#46; A dollop of lime&#45;seasoned sour cream adds creamy, cooling balance&#46; &#40;You may receive green curly, dark green lacinato, or red kale&#46;&#41;",
@@ -306,6 +313,7 @@
         ]
     },
     {
+        "id": 8,
         "title": "Crispy Fish Sandwiches",
         "subtitle": "with Tartar Sauce & Roasted Sweet Potato Wedges",
         "description": "These sandwiches highlight wild Alaskan pollock&#45;flavored with aromatic seasonings, coated with panko breadcrumbs, and pan&#45;fried for a golden&#45;brown crust&#46; In classic fashion, a tangy, mayo&#45;based tartar sauce perfectly balances the fish&#46;",
@@ -350,6 +358,7 @@
         ]
     },
     {
+        "id": 9,
         "title": "General Tso's Chicken",
         "subtitle": "with Bok Choy & Jasmine Rice",
         "description": "In this quick&#45;cooking spin on a takeout favorite, hoisin sauce, honey, sriracha, and sesame oil lend our chicken the sweet, spicy, and nutty flavors General Tso&#39;s is known for&#46; A light dusting of cornstarch on the chicken just before it hits the pan creates a delicately crispy exterior &#40;and helps it soak up the irresistible sauce later&#41;&#46;",
@@ -394,6 +403,7 @@
         ]
     },
     {
+        "id": 10,
         "title": "Hoisin&#45;Glazed Pork Chops",
         "subtitle": "with Stir&#45;Fried Vegetables & Wonton Noodles",
         "description": "Delightfully chewy wonton noodles tossed in a nutty, savory sauce are a delicious accompaniment to these pork chops&#46; For depth of flavor, we&#39;re pan&#45;searing the pork chops, then glazing them with barbecue&#45;like hoisin, whose sweetness perfectly matches bites of sautéed carrots in the noodles&#46;",
@@ -440,6 +450,7 @@
         ]
     },
     {
+        "id": 11,
         "title": "Honey&#45;Butter Barramundi",
         "subtitle": "with Za'atar Roasted Vegetables",
         "description": "This Middle Eastern recipe pairs crispy barramundi&#45;served in a family&#45;friendly pan sauce of honey and butter&#45;with a medley of winter vegetables&#46; For savory, herby flavor, we&#39;re seasoning the vegetables with za&#39;atar before roasting them&#46;",
@@ -481,6 +492,7 @@
         ]
     },
     {
+        "id": 12,
         "title": "Kale & Ricotta Quiche",
         "subtitle": "with Romaine, Apple, & Almond Salad",
         "description": "This crowd&#45;pleasing quiche showcases a rich, eggy filling made with ricotta and cream &#45; balanced by hearty sautéed kale&#46; On the side, we&#39;re serving a refreshing salad of crisp romaine and apple, wrapped in a creamy lemon dressing&#46;",
@@ -524,6 +536,7 @@
         ]
     },
     {
+        "id": 13,
         "title": "Mushroom & Potato Tacos",
         "subtitle": "with Romaine & Orange Salad",
         "description": "For this hearty vegetarian meal, we&#39;re filling soft flour tortillas with mushrooms and potato&#45;seasoned with a zesty, chorizo&#45;inspired blend, then roasted&#46; A pickled pepper relish lends bright flavor to the tacos, all tied together with a creamy sauce seasoned with the same spices&#46; Our side salad of juicy orange and crunchy romaine rounds out the dish&#46;",
@@ -574,6 +587,7 @@
         ]
     },
     {
+        "id": 14,
         "title": "Parmesan&#45;Crusted Chicken",
         "subtitle": "with Mashed Sweet Potatoes & Roasted Broccoli",
         "description": "In this simple, seasonal recipe, you&#39;ll coat chicken in a combination of flour, parmesan cheese, and savory spices before pan&#45;searing it&#46; We&#39;re adding more of the same spices to a bright, creamy sauce, perfect for spooning over the chicken and broccoli&#46;",
@@ -615,6 +629,7 @@
         ]
     },
     {
+        "id": 15,
         "title": "Pimento Cheeseburgers",
         "subtitle": "with Sweet Potato Oven Fries",
         "description": "Tonight, the classic cheeseburger gets an easy, Southern&#45;style lift from pimento cheese &#45; a zesty spread made with cheddar, mayo, pickled peppers, and spices&#46; We&#39;re serving our burgers with sweet potato oven fries for a flavorful, seasonal twist on the usual side&#46;",
@@ -658,6 +673,7 @@
         ]
     },
     {
+        "id": 16,
         "title": "Pork Chorizo Tacos",
         "subtitle": "with Cheesy Roasted Potatoes",
         "description": "These tacos get plenty of bold flavor from ground chorizo &#40;a type of spiced pork sausage&#41;, cooked into a delightfully saucy filling with cabbage and fresh citrus juices&#46; On the side, we&#39;re livening up roasted potatoes with garlic and Cotija cheese&#46;",
@@ -699,6 +715,7 @@
         ]
     },
     {
+        "id": 17,
         "title": "Roasted Broccoli & Fregola Sarda Salad",
         "subtitle": "with Hard&#45;Boiled Eggs & Tahini Dressing",
         "description": "This Middle Eastern&#45;inspired recipe is brimming with varied flavors and textures&#46; Toasty pearls of pasta, roasted vegetables &#40;seasoned with savory, herby za&#39;atar&#41;, crumbled cheese, and chopped almonds all come together in a smooth, nutty dressing&#46;",
@@ -747,6 +764,7 @@
         ]
     },
     {
+        "id": 18,
         "title": "Roasted Brussels Sprout & Freekeh Salad",
         "subtitle": "with Lemon Yogurt & Barrel&#45;Aged Feta",
         "description": "This Mediterranean&#45;inspired grain salad is brimming with varied, vibrant flavors&#46; Nutty freekeh and roasted Brussels sprouts get pops of sweetness from pickled peppers and dates, balanced by briny crumbled Feta&#46; To dollop on top, we&#39;re serving lemon&#45; seasoned yogurt for extra brightness&#46;",
@@ -796,6 +814,7 @@
         ]
     },
     {
+        "id": 19,
         "title": "Roasted Cauliflower Salad",
         "subtitle": "with Caper Brown Butter & Parmesan Breadcrumbs",
         "description": "Seasonal salads don&#39;t get much more satisfying than this&#46; We&#39;re bringing roasted cauliflower and sautéed kale together with cheesy toasted breadcrumbs and a briny caper&#45;studded dressing&#46; Served on top, soft&#45;boiled eggs add extra richness&#46;",
@@ -842,6 +861,7 @@
         ]
     },
     {
+        "id": 20,
         "title": "Roasted Chicken & Fall Vegetables",
         "subtitle": "with Cranberry & Ginger Compote",
         "description": "For this comforting autumn dinner, we&#39;re seasoning half chickens with the classic flavors of garlic, onion, and smoked paprika, then roasting them along with sweet potatoes and Brussels sprouts&#46; The rich chicken finds delicious contrast in a tart&#45;sweet compote, made simply by cooking fresh cranberries and ginger with a bit of sugar and water&#46;",
@@ -887,6 +907,7 @@
         ]
     },
     {
+        "id": 21,
         "title": "Roasted Pork & Broccoli",
         "subtitle": "with Apple, Cheese Sauce, & Garlic Breadcrumbs",
         "description": "To elevate the classic savory&#45;sweet pairing, we&#39;re topping roasted pork with sautéed apple in this crowd&#45;pleasing recipe&#46; The pork and a side of broccoli, roasted on the same sheet pan, come together with a rich, warming fontina cheese sauce&#46;",
@@ -928,6 +949,7 @@
         ]
     },
     {
+        "id": 22,
         "title": "Roasted Red Pepper Pasta",
         "subtitle": "with Lemon&#45;Parmesan Broccoli",
         "description": "In this quick&#45;cooking recipe, whole grain pipe rigate gets pops of flavor from sweet roasted piquillo peppers and briny capers &#45; plus a layer of exciting crunch from almonds&#46; It all comes together in a creamy, mildly spicy sauce&#46;",
@@ -966,6 +988,7 @@
         ]
     },
     {
+        "id": 23,
         "title": "Roasted Squash Curry",
         "subtitle": "with Crispy Mung Beans & Jasmine Rice",
         "description": "In this recipe, veggie curry gets a unique lift from spaghetti squash &#45; oven&#45;roasted, then broken into pasta&#45;like strands with a fork&#46; We&#39;re finishing our squash and bok choy in a sauce made with fresh aromatics and two well&#45;balanced pantry ingredients: spicy yellow curry paste and cooling coconut milk&#46; A garnish of dried mung beans brings it all together with exciting crunch&#46;",
@@ -1013,6 +1036,7 @@
         ]
     },
     {
+        "id": 24,
         "title": "Roasted Turkey Breast & Farro&#45;Endive Salad",
         "subtitle": "with Brown Butter Apple Compote",
         "description": "Fall comfort food gets a delicious lift in this recipe&#46; A sweet, toasty compote &#40;simply apple and shallot cooked in brown butter&#41; balances our savory roasted turkey breast&#46; On the side, we&#39;re tossing warm grains with endive &#45; first cooked with a bit of honey and lemon to brighten its mildly bitter flavor&#46;",
@@ -1060,6 +1084,7 @@
         ]
     },
     {
+        "id": 25,
         "title": "Salmon & Honey&#45;Glazed Carrots",
         "subtitle": "with Lemon&#45;Saffron Yogurt Sauce",
         "description": "This elegant dish gets unique flavor from a prized spice, saffron, used two ways: added to the water used to boil the potatoes and stirred into a creamy yogurt sauce&#46; The bright sauce is delicious spooned over rich salmon, potatoes, and carrots&#45;which get another flavor&#45;packed lift from a glaze of honey and fragrant cumin&#46; Aleppo pepper adds just a hint of spice throughout the dish, balanced by cooling fresh mint&#46;",
@@ -1107,6 +1132,7 @@
         ]
     },
     {
+        "id": 26,
         "title": "Seared Chicken & Mashed Potatoes",
         "subtitle": "with Maple&#45;Glazed Carrots",
         "description": "We&#39;re giving seared chicken a lift with a rich pan sauce, made with sweet maple syrup and tangy sherry vinegar&#46; It&#39;s the perfect accompaniment for creamy mashed potatoes and roasted carrots, dressed with a bit more maple syrup&#46;",
@@ -1148,6 +1174,7 @@
         ]
     },
     {
+        "id": 27,
         "title": "Seared Steaks & Garlic Butter",
         "subtitle": "with Oven Fries",
         "description": " “Steak frites,&#34; or steak with french fries, is classic French bistro fare&#46; Tonight&#39;s steaks get another layer of rich flavor from garlic butter, spooned over them as they cook&#46; Creamy mustard sauce is a perfect match for the rich steaks and hearty oven&#45;roasted fries, while a simple salad adds refreshing contrast&#46; &#40;You may receive crisp romaine or tender butter lettuce&#46;&#41;",
@@ -1191,6 +1218,7 @@
         ]
     },
     {
+        "id": 28,
         "title": "Shiitake & Hoisin Beef Burgers",
         "subtitle": "with Miso Mayonnaise & Roasted Sweet Potatoes",
         "description": "These Asian&#45;inspired burgers get their irresistible umami flavor from chopped shiitake mushrooms &#40;mixed right into the beef&#41; and a miso&#45;mayo spread&#46; Piled on top, crisp ribbons of bok choy round out the burgers, served with a side of roasted sweet potato wedges&#46;",
@@ -1237,6 +1265,7 @@
         ]
     },
     {
+        "id": 29,
         "title": "Shrimp Fra Diavolo",
         "subtitle": "with Lumaca Rigata Pasta",
         "description": "Tonight&#39;s variation on the beloved Italian&#45;American dish gets its “devilish&#34; heat from Calabrian chile paste, mixed into a tangy&#45;sweet tomato sauce&#46; It perfectly coats shrimp, cabbage, and lumaca rigata pasta&#46; A garnish of sliced almonds finishes the dish with contrasting crunch&#46;",
@@ -1281,6 +1310,7 @@
         ]
     },
     {
+        "id": 30,
         "title": "Smoked Gouda & Mushroom Flatbread",
         "subtitle": "with Endive & Apple Salad",
         "description": "For this rustic seasonal meal, we&#39;re topping flatbread &#45; made by rolling out pizza dough until extra&#45;thin &#45; with two kinds of cheeses, including nutty smoked Gouda&#46; Cremini mushrooms add even more irresistibly savory flavor to the flatbread, balanced by a bright, crisp endive and apple salad&#46;",
@@ -1328,6 +1358,7 @@
         ]
     },
     {
+        "id": 31,
         "title": "Spicy Chicken Quesadillas",
         "subtitle": "with Beet & Orange Salad",
         "description": "A seasonal salad of striped Chioggia beet, juicy orange, and peanuts is a fresh pairing for these zesty quesadillas&#46; We&#39;re seasoning the chicken filling with both jalapeño pepper and Mexican spices &#45; balanced by a layer of melty white cheddar&#46; Mexican crema brightened up with lime juice is perfect for dipping&#46;",
@@ -1375,6 +1406,7 @@
         ]
     },
     {
+        "id": 32,
         "title": "Spicy Pork & Korean Rice Cakes",
         "subtitle": "with Bok Choy",
         "description": "In this crowd&#45;pleasing recipe, a savory and spicy sauce &#40;balanced by a touch of cooling crème fraîche&#41; brings together ground pork, bok choy, and aromatics&#46; We&#39;re mixing in delightfully chewy tteok, or rice cakes &#45; a staple of Korean cuisine&#46;",
@@ -1421,6 +1453,7 @@
         ]
     },
     {
+        "id": 33,
         "title": "Sweet & Sour Vegetable Stir&#45;Fry",
         "subtitle": "with Fried Eggs & Peanuts",
         "description": "Two kinds of citrus &#45; seasonal orange and lemon &#45; give the sauce for our stir&#45;fried vegetables its irresistible sweet&#45;sour balance&#46; The carrots, celery, and bok choy perfectly contrast a rich fried egg and fluffy, radish&#45;studded white rice&#46;",
@@ -1462,6 +1495,7 @@
         ]
     },
     {
+        "id": 34,
         "title": "Thai Curry Chicken",
         "subtitle": "with Carrots & Bok Choy",
         "description": "In tonight&#39;s dish, the spicy and aromatic flavors of yellow curry paste &#45; a Thai staple &#45; shine through a lightly sweet coconut milk broth&#46; Sautéed chicken, carrots, and bokchoy give the curry plenty of hearty texture, while fluffy rice eagerly soaks up all the complex flavors&#46; &#40;Chefs, this curry paste packs a punch of heat, so be sure to use only as much as you&#39;d like!&#41;",
@@ -1503,6 +1537,7 @@
         ]
     },
     {
+        "id": 35,
         "title": "Tilapia & Black Lentil Salad",
         "subtitle": "with Lemon Pan Sauce",
         "description": "In this dish, we&#39;re putting a twist on Italian gremolata: adding pickled peppers to the classic parsley, garlic, and lemon condiment&#46; The bright, tangy flavors perk up a hearty salad of black lentils and roasted broccoli&#46; We&#39;re also using lemon juice as the base for an easy pan sauce to serve over our seared tilapia&#46;",
@@ -1548,6 +1583,7 @@
         ]
     },
     {
+        "id": 36,
         "title": "Top Chef Seared Grassfed Steaks",
         "subtitle": "with Sweet Chili&#45;Glazed Vegetables",
         "description": "In this recipe, inspired by our Quickfire Challenge from Top Chef Season 15 on Bravo, simple grassfed steaks and rice get a sweet, tart, and spicy lift from glazed mushrooms and bok choy&#46; Sliced radishes, softened a bit with lime juice, finish the dish off with subtle crunch&#46;",
