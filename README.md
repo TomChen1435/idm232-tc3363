@@ -9,6 +9,7 @@ Core concepts: browsing, searching, and filtering through the recipes
 - Home
     - Header
     - Main
+        - Search
         - Single recipe
         - No result found
         - Filter results screen
