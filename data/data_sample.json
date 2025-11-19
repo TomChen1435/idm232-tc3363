@@ -3,38 +3,8 @@
         "title": "",
         "subtitle": "",
         "description": "",
-        "ingredients": [
-            ""
-        ],
-        "kitchen_tools": {
-            "name": "",
-            "description": ""
-        },
-        "steps": [
-            {
-                "title": "",
-                "content": ""
-            },
-            {
-                "title": "",
-                "content": ""
-            },
-            {
-                "title": "",
-                "content": ""
-            },
-            {
-                "title": "",
-                "content": ""
-            },
-            {
-                "title": "",
-                "content": ""
-            },
-            {
-                "title": "",
-                "content": ""
-            }
-        ]
+        "ingredients": "",
+        "kitchen_tools": "",
+        "steps": ""
     }
 ]
