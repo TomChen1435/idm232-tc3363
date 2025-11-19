@@ -10,8 +10,8 @@
 
     <?php include './php/header.php' ?>
 
-    <main class="menu hide"><?php include './php/home.php' ?></main>
-    <main class="search "><?php include './php/search.php' ?></main>
+    <main class="menu "><?php include './php/home.php' ?></main>
+    <main class="search hide"><?php include './php/search.php' ?></main>
     <main class="recipe hide"><?php include './php/recipe.php' ?></main>
     <main class="filter hide"><?php include './php/filter_results.php' ?></main>
     <main class="no-result hide"><?php include './php/no_result.php' ?></main>
