@@ -8,21 +8,7 @@
     <p>Search Again</p>
 </button>
 
-<style>
-    body.no-result {
-        gap: 0;
-        height: 100vh;
-        justify-content: space-between;
-    }
-
-    main.no-result {
-        align-items: center;
-        display: flex;
-        flex-flow: column nowrap;
-        gap: var(--gap16);
-        padding: 0 var(--gap24);
-    }
-
+<style> 
     main.no-result > svg {
         height: 7.5rem;
     }
@@ -39,8 +25,8 @@
 
     main.no-result > button.search-again {
         background-color: var(--blue);
-        border-radius: var(--gap16);
-        padding: var(--gap12) var(--gap24);
+        border-radius: calc(var(--btn-ht) / 2);
+        padding: 0 var(--gap24);
 
         p {
             color: var(--txt-white);

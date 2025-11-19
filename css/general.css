@@ -3,6 +3,7 @@
 * {
     box-sizing: border-box;
     height: fit-content;
+    max-width: 100%;
     text-wrap: pretty;
     width: fit-content;
 }
@@ -16,7 +17,7 @@
     --gap16: 1rem;
     --gap24: 1.5rem;
 
-    --icon-ht: 2.5rem;
+    --icon-ht: 2rem;
     --btn-ht: 3rem;
 }
 
@@ -35,13 +36,13 @@
 /* Grayscale */
 
 :root {
-    --intensity-txt: 32;
+    --intensity-txt: 48;
     --txt-black: oklab(calc(1 / var(--intensity-txt)) 0 0);
     --txt-white: oklab(calc(1 - (1 / var(--intensity-txt))) 0 0);
 
-    --intensity-bg: 8;
+    --intensity-bg: 36;
     --bg-black: oklab(calc(1 / var(--intensity-bg)) 0 0);
-    --bg-white: oklab(calc(1 - (1 / var(--intensitybg))) 0 0);
+    --bg-white: oklab(calc(1 - (1 / var(--intensity-bg))) 0 0);
 
     --gray: oklab(0.4 0 0);
 }
@@ -83,17 +84,71 @@ body {
     display: flex;
     flex-flow: column nowrap;
     gap: var(--gap24);
+    min-height: 100vh;
+}
+
+body.limited {
+    gap: 0;
+    justify-content: space-between;
 }
 
 body * {
     transition: all 250ms ease-in-out;
 }
 
+header, button {
+    align-items: center;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+}
+
+main.search, main.no-result {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: var(--gap16);
+    padding: 0 var(--gap24);
+}
+
 button {
-    border: none !important;
+    border: none;
+    border-radius: calc(var(--btn-ht) / 2) !important;
     cursor: pointer;
+    gap: var(--gap12);
+    height: var(--btn-ht);
+}
+
+button svg {
+    height: var(--icon-ht);
+    width: var(--icon-ht);
+}
+
+h1 {
+    font-weight: 550;
+    line-height: 120%;
 }
 
 p {
     line-height: 145%;
+}
+
+/* Search button */
+
+header > button.search, form.search-bar > button {
+    border-radius: var(--gap12);
+    justify-content: center;
+    width: var(--btn-ht);
+}
+
+header > button.search.default, form.search-bar > button {
+    background-color: var(--blue);
+
+    svg {
+        fill: var(--txt-white);
+    }
+}
+
+header > button.search.default:hover, form.search-bar > button:hover {
+    background-color: var(--indigo);
 }

@@ -16,28 +16,10 @@
 </header>
 
 <style>
-    header, header > * {
-        align-items: center;
-        display: flex;
-        flex-flow: row nowrap;
-        padding: 0;
-    }
-
     header {
         background-color: var(--bg-black);
         gap: 0;
         justify-content: space-between;
-    }
-
-    header svg {
-        height: var(--icon-ht);
-        fill: var(--txt-white);
-        width: var(--icon-ht);
-    }
-
-    header > button {
-        border: none;
-        gap: var(--gap12);
     }
 
     header > button.home {
@@ -45,10 +27,14 @@
         gap: var(--gap12);
         margin: var(--gap12);
 
+        svg {
+            fill: var(--txt-white);
+            height: calc(1.25 * var(--icon-ht));
+            width: calc(1.25 * var(--icon-ht));
+        }
+
         h1 {
             color: var(--txt-white);
-            font-weight: 550;
-            line-height: 120%;
             text-align: left;
             text-wrap: wrap;
         }
@@ -74,22 +60,16 @@
         header h1 {font-size: 1.75rem;}
     }
 
-    header > button.search.default {
-        background-color: var(--blue);
-        border-radius: var(--gap12);
-        height: var(--btn-ht);
-        justify-content: center;
-        margin-right: var(--gap12);
-        width: var(--btn-ht);
-    }
+    /* The search button also appears in the "search" main. More style rules are moved to general.css. */
 
-    header > button.search.default:hover {
-        background-color: var(--indigo);
+    header > button.search {
+        margin-right: var(--gap12);
     }
 
     header > button.search.clicked {
         background-color: var(--bg-white);
-        cursor: default;
+        border: 0.25rem solid var(--blue);
+        cursor: not-allowed;
 
         svg {
             fill: var(--blue);
