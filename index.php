@@ -10,11 +10,23 @@
 
     <?php include './php/header.php' ?>
 
-    <main class="menu "><?php include './php/home.php' ?></main>
-    <main class="search hide"><?php include './php/search.php' ?></main>
-    <main class="recipe hide"><?php include './php/recipe.php' ?></main>
-    <main class="filter hide"><?php include './php/filter_results.php' ?></main>
-    <main class="no-result hide"><?php include './php/no_result.php' ?></main>
+    <main class="menu display"><?php include './php/home.php' ?></main>
+    <main class="search"><?php include './php/search.php' ?></main>
+    <main class="recipe"><?php include './php/recipe.php' ?></main>
+    <main class="filter"><?php include './php/filter_results.php' ?></main>
+    <main class="no-result"><?php include './php/no_result.php' ?></main>
+
+    <script>
+        const htmlBody = document.querySelector('body');
+
+        const mainMenu = document.querySelector('main.menu');
+        const mainSearch = document.querySelector('main.search');
+        const mainRecipe = document.querySelector('main.recipe');
+        const mainFilter = document.querySelector('main.filter');
+        const mainNoResult = document.querySelector('main.no-result');
+
+        const mains = [mainMenu, mainSearch, mainRecipe, mainFilter, mainNoResult];
+    </script>
     
     <footer>
         <p>&copy; 2025 Wooden Ladle Recipes, for educational use only.</p>
@@ -36,7 +48,8 @@
         }
     </style>
 
-    <script src="./postload.js"></script>
+    <script src="./javascript/functions.js"></script>
+    <script src="./javascript/switches.js"></script>
 
 </body>
 </html>

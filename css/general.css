@@ -8,8 +8,6 @@
     width: fit-content;
 }
 
-.hide {display: none !important;}
-
 /* Variables */
 
 :root {
@@ -101,6 +99,10 @@ header, button {
     display: flex;
     flex-flow: row nowrap;
     padding: 0;
+}
+
+main:not(.display) {
+    display: none !important;
 }
 
 main.search, main.no-result {
