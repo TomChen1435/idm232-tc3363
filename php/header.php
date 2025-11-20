@@ -17,9 +17,13 @@
 
 <style>
     header {
+        align-items: center;
         background-color: var(--bg-black);
+        display: flex;
+        flex-flow: row nowrap;
         gap: 0;
         justify-content: space-between;
+        padding: 0;
     }
 
     header > button.home {

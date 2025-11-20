@@ -11,6 +11,7 @@
 /* Variables */
 
 :root {
+    --gap8: 0.5rem;
     --gap12: 0.75rem;
     --gap16: 1rem;
     --gap24: 1.5rem;
@@ -42,7 +43,8 @@
     --bg-black: oklab(calc(1 / var(--intensity-bg)) 0 0);
     --bg-white: oklab(calc(1 - (1 / var(--intensity-bg))) 0 0);
 
-    --gray: oklab(0.4 0 0);
+    --light-gray: oklab(0.925 0 0);
+    --gray: oklab(0.45 0 0);
 }
 
 /* Color */
@@ -81,7 +83,6 @@ body {
     background-color: var(--bg-white);
     display: flex;
     flex-flow: column nowrap;
-    gap: var(--gap24);
     min-height: 100vh;
 }
 
@@ -92,13 +93,6 @@ body.limited {
 
 body * {
     transition: all 250ms ease-in-out;
-}
-
-header, button {
-    align-items: center;
-    display: flex;
-    flex-flow: row nowrap;
-    padding: 0;
 }
 
 main:not(.display) {
@@ -114,11 +108,13 @@ main.search, main.no-result {
 }
 
 button {
+    align-items: center;
     border: none;
-    border-radius: calc(var(--btn-ht) / 2) !important;
     cursor: pointer;
-    gap: var(--gap12);
-    height: var(--btn-ht);
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: var(--btn-ht) !important;
+    padding: 0;
 }
 
 button svg {
@@ -126,9 +122,10 @@ button svg {
     width: var(--icon-ht);
 }
 
-h1 {
+h1, h2 {
     font-weight: 550;
     line-height: 120%;
+    text-align: left;
 }
 
 p {
@@ -138,7 +135,7 @@ p {
 /* Search button */
 
 header > button.search, form.search-bar > button {
-    border-radius: var(--gap12);
+    border-radius: calc(var(--btn-ht) / 2);
     justify-content: center;
     width: var(--btn-ht);
 }
