@@ -10,10 +10,11 @@
 
     <?php include './php/header.php' ?>
 
-    <main class="menu display"><?php include './php/home.php' ?></main>
+    <main class="menu"><?php include './php/home.php' ?></main>
     <main class="search"><?php include './php/search.php' ?></main>
     <main class="recipe"><?php include './php/recipe.php' ?></main>
-    <main class="filter"><?php include './php/filter_results.php' ?></main>
+    <!-- Filter and menu share the same fundamental designs. -->
+    <main class="filter menu display"><?php include './php/filter_results.php' ?></main>
     <main class="no-result"><?php include './php/no_result.php' ?></main>
 
     <script>

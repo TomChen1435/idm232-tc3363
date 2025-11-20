@@ -9,6 +9,10 @@
     </section>
 </template>
 
+<section class="headings">
+    <h1>How are we feeling today&#63;</h1>
+</section>
+
 <button class="menu card">
     <picture>
         <source type="image/avif" srcset="./images/16/banner.avif">
@@ -48,6 +52,14 @@
         max-width: 96rem;
     }
 
+    main.menu > section.headings {
+        align-self: center;
+
+        h1 {
+            text-align: center;
+        }
+    }
+
     button.menu.card {
         align-items: center;
         container-type: inline-size;
@@ -56,7 +68,7 @@
         flex-flow: row nowrap;
         max-width: var(--card-max-width);
         overflow: hidden;
-        width: clamp(var(--card-min-width), 100%, var(--card-max-width));
+        width: 100%;
     }
 
     button.menu.card > picture, button.menu.card > picture > * {
@@ -94,7 +106,6 @@
         button.menu.card {
             background-color: var(--light-gray);
             height: var(--card-height-snap);
-            
         }
 
         button.menu.card > section {

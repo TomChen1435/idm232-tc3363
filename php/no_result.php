@@ -23,20 +23,5 @@
         text-align: center;
     }
 
-    main.no-result > button.search-again {
-        background-color: var(--blue);
-        border-radius: calc(var(--btn-ht) / 2);
-        padding: 0 var(--gap24);
-
-        p {
-            color: var(--txt-white);
-            font-size: 1.5rem;
-            font-weight: 550;
-            letter-spacing: 0.15px;
-        }
-    }
-
-    main.no-result > button.search-again:hover {
-        background-color: var(--indigo);
-    }
+    /* The design for "search again" is moved to general.css because it's also used in the filter page. */
 </style>
