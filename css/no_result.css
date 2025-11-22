@@ -1,0 +1,52 @@
+@import url('./general.css');
+
+body {
+    height: 100vh;
+    justify-content: space-between;
+}
+
+main {
+    align-items: center;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: var(--gap24);
+    justify-content: center;
+}
+
+@media (width < 26rem) {
+    main {padding: var(--gap8) var(--gap12);}
+}
+
+@media (26rem <= width) {
+    main {padding: var(--gap12) var(--gap24);}
+}
+
+main > svg {
+    fill: var(--apple-red);
+    height: 8rem;
+}
+
+main > h2 {
+    text-align: center;
+}
+
+section.btns {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gap24);
+    justify-content: center;
+}
+
+a.home-inpage {
+    background-color: var(--ios-gray-6-alt);
+}
+
+a.home-inpage:hover {
+    background-color: var(--ios-gray-5);
+}
+
+a.home-inpage:hover * {
+    color: var(--ios-gray-6-alt);
+    fill: var(--ios-gray-6-alt);
+}

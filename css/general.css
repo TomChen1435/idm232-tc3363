@@ -14,7 +14,7 @@
     font-style: normal;
 }
 
-* {
+:root {
     font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
     text-wrap: pretty;
 }
@@ -22,11 +22,81 @@
 h1, h2 {
     font-weight: 550;
     line-height: 120%;
+    max-width: 60rem;
+}
+
+h1 {
+    color: var(--black);
+}
+
+h2 {
+    color: var(--ios-gray-1);
+}
+
+@media (width < 26rem) {
+    h1 {font-size: 1rem;}
+    h2 {font-size: 0.75rem;}
+}
+
+@media (26rem <= width < 28rem) {
+    h1 {font-size: 1.125rem;}
+    h2 {font-size: 0.875rem;}
+}
+
+@media (28rem <= width < 30.75rem) {
+    h1 {font-size: 1.25rem;}
+    h2 {font-size: 1rem;}
+}
+
+@media (30.75rem <= width < 33rem) {
+    h1 {font-size: 1.375rem;}
+    h2 {font-size: 1.125rem;}
+}
+
+@media (33rem <= width < 34.875rem) {
+    h1 {font-size: 1.5rem;}
+    h2 {font-size: 1.25rem;}
+}
+
+@media (34.875rem <= width < 37.5rem) {
+    h1 {font-size: 1.625rem;}
+    h2 {font-size: 1.375rem;}
+}
+
+@media (37.5rem <= width < 39.5rem) {
+    h1 {font-size: 1.75rem;}
+    h2 {font-size: 1.5rem;}
+}
+
+@media (39.5rem <= width) {
+    h1 {font-size: 1.875rem;}
+    h2 {font-size: 1.625rem;}
 }
 
 p {
     font-weight: 400;
     line-height: 145%;
+    max-width: 57rem;
+}
+
+@media (width < 26rem) {
+    p {font-size: 0.75rem;}
+}
+
+@media (26rem <= width < 28rem) {
+    p {font-size: 0.875rem;}
+}
+
+@media (28rem <= width < 30.75rem) {
+    p {font-size: 1rem;}
+}
+
+@media (30.75rem <= width < 33rem) {
+    p {font-size: 1.125rem;}
+}
+
+@media (33rem <= width) {
+    p {font-size: 1.25rem;}
 }
 
 /* Color */
@@ -58,27 +128,34 @@ p {
         --ios-gray-6: rgb(28,28,30);
         --ios-gray-6-alt: rgb(242,242,247);
 
-        --black: oklab(0.01 0 0);
-        --white: oklab(0.99 0 0);
+        --black: oklab(0.99 0 0);
+        --white: oklab(0.01 0 0);
     }
 }
 
 /* Constraint Variables */
 
 :root {
+    --gap4: 0.25rem;
     --gap8: 0.5rem;
     --gap12: 0.75rem;
     --gap16: 1rem;
     --gap24: 1.5rem;
-
-    --icon-ht: 2.25rem;
-    --btn-ht: 3rem;
+    --gap36: 2.25rem;
+    --gap48: 3rem;
 }
 
-/* Body */
+/* Fundamentals */
+
+html {
+    width: 100%;
+}
 
 body {
+    align-items: center;
     background-color: var(--ios-gray-6);
+    display: flex;
+    flex-flow: column nowrap;
     min-width: 20rem;
     width: 100%;
 }
@@ -92,58 +169,135 @@ body, body * {
 
 /* Buttons */
 
-button {
+a {
     align-items: center;
-    border: none;
+    border-radius: var(--gap24);
+    cursor: pointer;
     display: flex;
     flex-flow: row nowrap;
+    height: var(--gap48);
     justify-content: center;
-}
-
-button.home {
-    background: none;
-    justify-content: flex-start;
-}
-
-button.search {
-    background-color: var(--apple-blue);
-    border-radius: var(--gap24);
-    height: var(--btn-ht);
+    text-decoration: none;
     transition-property: background-color;
 }
 
-button.search:hover {
+a > svg {
+    height: var(--gap36);
+}
+
+a * {
+    color: var(--white);
+    fill: var(--white);
+}
+
+a.search {
+    background-color: var(--apple-blue);
+}
+
+a.search:hover {
     background-color: var(--apple-indigo);
 }
 
-button.search.short {
-    width: var(--btn-ht);
+a.short {
+    width: var(--gap48);
 }
 
-button.search.long {
+a.long {
     gap: var(--gap8);
     padding: 0 var(--gap24) 0 var(--gap16);
 }
 
-button.search > * {
-    color: var(--white);
-    fill: var(--white);
+a.long > h1 {
+    font-size: 1.5rem;
 }
 
 /* Header */
 
 header {
+    align-items: center;
     background-color: var(--ios-gray-6-alt);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
     width: 100%;
+}
+
+a.home {
+    background: none;
+    border-radius: 0;
+    gap: var(--gap8);
+    height: fit-content;
+    justify-content: flex-start;
+    transition-property: none;
+}
+
+@media (width < 23rem) {
+    a.home > h1 {font-size: 1.5rem;}
+    a.home > h1 > span {display: none;}
+}
+
+@media (width < 24rem) {
+    header {padding-left: var(--gap12);}
+    header > a.search.short {border-radius: 0;}
+}
+
+@media (24rem <= width < 26rem) {
+    header {padding: var(--gap8) var(--gap12);}
+}
+
+@media (23rem <= width < 26rem) {
+    a.home > h1 {font-size: 1.375rem;}
+}
+
+@media (26rem <= width < 28rem) {
+    a.home > h1 {font-size: 1.5rem;}
+}
+
+@media (width < 28rem) {
+    a.home > svg {height: var(--gap36);}
+}
+
+@media (28rem <= width) {
+    a.home > svg {height: var(--gap48);}
+}
+
+@media (28rem <= width < 30rem) {
+    a.home > h1 {font-size: 1.625rem;}
+}
+
+@media (30rem <= width < 33rem) {
+    a.home > h1 {font-size: 1.75rem;}
+}
+
+@media (26rem <= width < 33rem) {
+    header {padding: var(--gap12) var(--gap24);}
+}
+
+@media (33rem <= width) {
+    header {padding: var(--gap16) var(--gap24);}
+    a.home > h1 {font-size: 2rem;}
 }
 
 /* Footer */
 
 footer {
+    align-items: center;
     background-color: var(--ios-gray-6-alt);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
     width: 100%;
 }
 
 footer > p {
     color: var(--white);
+    text-align: right;
+}
+
+@media (width < 26rem) {
+    footer {padding: var(--gap8) var(--gap12);}
+}
+
+@media (26rem <= width) {
+    footer {padding: var(--gap12) var(--gap24);}
 }
