@@ -1,0 +1,149 @@
+@import url('./reset.css');
+
+* {
+    box-sizing: border-box;
+    height: fit-content;
+    width: fit-content;
+}
+
+/* Typography */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans.ttf') format('truetype');
+    font-style: normal;
+}
+
+* {
+    font-family: 'Open Sans', 'Helvetica Neue', 'Arial', 'Helvetica', sans-serif;
+    text-wrap: pretty;
+}
+
+h1, h2 {
+    font-weight: 550;
+    line-height: 120%;
+}
+
+p {
+    font-weight: 400;
+    line-height: 145%;
+}
+
+/* Color */
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --apple-red: rgb(255,56,60);
+        --apple-blue: rgb(0,136,255);
+        --apple-indigo: rgb(97,85,245);
+
+        --ios-gray-1: rgb(142,142,147);
+        --ios-gray-5: rgb(229,229,234);
+        --ios-gray-6: rgb(242,242,247);
+        --ios-gray-6-alt: rgb(28,28,30);
+
+        --black: oklab(0.01 0 0);
+        --white: oklab(0.99 0 0);
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --apple-red: rgb(255,66,69);
+        --apple-blue: rgb(0,145,255);
+        --apple-indigo: rgb(109,124,255);
+
+        --ios-gray-1: rgb(142,142,147);
+        --ios-gray-5: rgb(44,44,46);
+        --ios-gray-6: rgb(28,28,30);
+        --ios-gray-6-alt: rgb(242,242,247);
+
+        --black: oklab(0.01 0 0);
+        --white: oklab(0.99 0 0);
+    }
+}
+
+/* Constraint Variables */
+
+:root {
+    --gap8: 0.5rem;
+    --gap12: 0.75rem;
+    --gap16: 1rem;
+    --gap24: 1.5rem;
+
+    --icon-ht: 2.25rem;
+    --btn-ht: 3rem;
+}
+
+/* Body */
+
+body {
+    background-color: var(--ios-gray-6);
+    min-width: 20rem;
+    width: 100%;
+}
+
+/* Transition */
+
+body, body * {
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+}
+
+/* Buttons */
+
+button {
+    align-items: center;
+    border: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+button.home {
+    background: none;
+    justify-content: flex-start;
+}
+
+button.search {
+    background-color: var(--apple-blue);
+    border-radius: var(--gap24);
+    height: var(--btn-ht);
+    transition-property: background-color;
+}
+
+button.search:hover {
+    background-color: var(--apple-indigo);
+}
+
+button.search.short {
+    width: var(--btn-ht);
+}
+
+button.search.long {
+    gap: var(--gap8);
+    padding: 0 var(--gap24) 0 var(--gap16);
+}
+
+button.search > * {
+    color: var(--white);
+    fill: var(--white);
+}
+
+/* Header */
+
+header {
+    background-color: var(--ios-gray-6-alt);
+    width: 100%;
+}
+
+/* Footer */
+
+footer {
+    background-color: var(--ios-gray-6-alt);
+    width: 100%;
+}
+
+footer > p {
+    color: var(--white);
+}
