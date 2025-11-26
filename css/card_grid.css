@@ -1,3 +1,58 @@
 /* Card Grid */
 
+main {
+    align-self: center;
+    display: grid;
+    grid-auto-rows: auto;
+    max-width: 130rem;
+    width: 100%;
+}
+
+/* Columns */
+
+@media (width < 44.5rem) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (44.5rem <= width < 66rem) {
+    main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (66rem <= width) {
+    main {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Gaps and Paddings */
+
+@media (width < 23rem) {
+    main {
+        padding: var(--gap12) 0;
+    }
+}
+
+@media (23rem <= width < 26rem) {
+    main {
+        padding: var(--gap12);
+    }
+}
+
+@media (width < 26rem) {
+    main {
+        gap: var(--gap12);
+    }
+}
+
+@media (26rem <= width) {
+    main {
+        gap: var(--gap24);
+        padding: var(--gap24);
+    }
+}
+
 /* Greetings Info */

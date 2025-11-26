@@ -137,6 +137,7 @@ body {
     background-color: var(--ios-gray-6);
     display: flex;
     flex-flow: column nowrap;
+    min-height: 100vh;
     min-width: 20rem;
     width: 100%;
 }
@@ -267,6 +268,7 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
+    justify-self: flex-end;
     width: 100%;
 }
 

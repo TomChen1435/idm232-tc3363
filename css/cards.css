@@ -1,1 +1,212 @@
 /* Cards */
+
+div.wrapper {
+    container-name: card;
+    container-type: inline-size;
+    width: 100%;
+}
+
+a.card {
+    background-color: var(--white);
+    gap: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+a.card > picture, a.card > picture * {
+    aspect-ratio: 1 / 1;
+    height: 100%;
+    object-fit: cover;
+}
+
+a.card > section {
+    align-items: flex-end;
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+a.card > section > * {
+    text-align: right;
+}
+
+a.card > section > h1 {
+    color: var(--black);
+}
+
+a.card > section > h2 {
+    color: var(--ios-gray-1);
+}
+
+/* Snap Design */
+
+@media (width < 23rem) {
+    a.card {
+        border-radius: 0 !important;
+    }
+}
+
+@media (23rem <= width) {
+    a.card {
+        border: var(--gap4) solid var(--black);
+    }
+}
+
+/* Container Queries */
+
+@container card (width < 23rem) {
+    a.card {
+        border-radius: var(--gap12);
+        height: 6.25rem;
+    }
+
+    a.card > section {
+        gap: var(--gap8);
+        padding: var(--gap12);
+    }
+
+    a.card > section > h1 {
+        font-size: 1rem;
+    }
+
+    a.card > section > h2 {
+        font-size: 0.75rem;
+    }
+}
+
+@container card (23rem <= width < 25rem) {
+    a.card {
+        height: 8rem;
+    }
+
+    a.card > section > h1 {
+        font-size: 1.125rem;
+    }
+
+    a.card > section > h2 {
+        font-size: 0.875rem;
+    }
+}
+
+@container card (25rem <= width < 27.75rem) {
+    a.card {
+        height: 8.125rem;
+    }
+
+    a.card > section > h1 {
+        font-size: 1.25rem;
+    }
+
+    a.card > section > h2 {
+        font-size: 1rem;
+    }
+}
+
+@container card (23rem <= width < 27.75rem) {
+    a.card {
+        border-radius: var(--gap16);
+    }
+
+    a.card > section {
+        gap: var(--gap12);
+        padding: var(--gap16);
+    }
+}
+
+@container card (27.75rem <= width) {
+    a.card {
+        border-radius: var(--gap24);
+    }
+}
+
+@container card (27.75rem <= width < 30rem) {
+    a.card {
+        height: 9.75rem;
+    }
+
+    a.card > section {
+        gap: var(--gap12);
+        padding: var(--gap24);
+    }
+
+    a.card > section > h1 {
+        font-size: 1.375rem;
+    }
+
+    a.card > section > h2 {
+        font-size: 1.125rem;
+    }
+}
+
+@container card (30rem <= width < 31.875rem) {
+    a.card {
+        height: 10.625rem;
+    }
+
+    a.card > section > h1 {
+        font-size: 1.5rem;
+    }
+
+    a.card > section > h2 {
+        font-size: 1.25rem;
+    }
+}
+
+@container card (31.875rem <= width < 34.5rem) {
+    a.card {
+        height: 11.125rem;
+    }
+
+    a.card > section > h1 {
+        font-size: 1.625rem;
+    }
+
+    a.card > section > h2 {
+        font-size: 1.375rem;
+    }
+}
+
+@container card (30rem <= width < 34.5rem) {
+    a.card > section {
+        gap: var(--gap16);
+        padding: var(--gap24);
+    }
+}
+
+@container card (34.5rem <= width < 36.5rem) {
+    a.card {
+        height: 12.375rem;
+    }
+
+    a.card > section > h1 {
+        font-size: 1.75rem;
+    }
+
+    a.card > section > h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@container card (36.5rem <= width) {
+    a.card {
+        height: 12.875rem;
+    }
+
+    a.card > section > h1 {
+        font-size: 1.875rem;
+    }
+
+    a.card > section > h2 {
+        font-size: 1.625rem;
+    }
+}
+
+@container card (34.5rem <= width) {
+    a.card > section {
+        gap: var(--gap24);
+        padding: var(--gap24);
+    }
+}
