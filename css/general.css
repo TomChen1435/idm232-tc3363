@@ -33,22 +33,7 @@ h2 {
     color: var(--ios-gray-1);
 }
 
-@media (width < 26rem) {
-    h1 {font-size: 1rem;}
-    h2 {font-size: 0.75rem;}
-}
-
-@media (26rem <= width < 28rem) {
-    h1 {font-size: 1.125rem;}
-    h2 {font-size: 0.875rem;}
-}
-
-@media (28rem <= width < 30.75rem) {
-    h1 {font-size: 1.25rem;}
-    h2 {font-size: 1rem;}
-}
-
-@media (30.75rem <= width < 33rem) {
+@media (width < 33rem) {
     h1 {font-size: 1.375rem;}
     h2 {font-size: 1.125rem;}
 }
@@ -79,11 +64,7 @@ p {
     max-width: 57rem;
 }
 
-@media (width < 26rem) {
-    p {font-size: 0.75rem;}
-}
-
-@media (26rem <= width < 28rem) {
+@media (width < 28rem) {
     p {font-size: 0.875rem;}
 }
 
