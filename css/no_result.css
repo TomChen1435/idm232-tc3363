@@ -39,14 +39,20 @@ section.btns {
 }
 
 a.home-inpage {
-    background-color: var(--ios-gray-6-alt);
+    border: var(--gap4) solid var(--ios-gray-1);
+    transition-property: all;
+}
+
+a.home-inpage * {
+    color: var(--ios-gray-1);
+    fill: var(--ios-gray-1);
 }
 
 a.home-inpage:hover {
-    background-color: var(--ios-gray-5);
+    border-color: var(--apple-indigo);
 }
 
 a.home-inpage:hover * {
-    color: var(--ios-gray-6-alt);
-    fill: var(--ios-gray-6-alt);
+    color: var(--apple-indigo);
+    fill: var(--apple-indigo);
 }
