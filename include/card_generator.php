@@ -1,13 +1,14 @@
 <?php 
     while ($row = $result->fetch_assoc()) {
-        $sequence = $row["id"] - 1;
+        $recipe_id = $row["id"];
+        $sequence = $recipe_id - 1;
         $banner = "images/" . $sequence . "/banner."; 
         $title = $row["title"];
         $subtitle = $row["subtitle"];
 ?>
 
 <div class="wrapper">
-    <a href="" class="card">
+    <a href=<?php echo "recipe.php?recipe_id=" . $recipe_id?> class="card">
         <picture>
             <source srcset="<?php echo $banner . "avif" ?>" type="image/avif">
             <img src="<?php echo $banner . "jpg" ?>" alt="<?php echo $title . " " . $subtitle ?>">

@@ -9,12 +9,12 @@ The data is initially collected with a JSON file, as Excel was super annoying in
 - subtitle 
 - description 
 - ingredients 
-    - Items are divided by "_LINK_BREAK_" 
+    - Items are divided by "_LINE_BREAK_" 
 - kitchen_tools 
-    - Name and description are divided by "_LINK_BREAK_" 
+    - Name and description are divided by "_LINE_BREAK_" 
 - steps 
     - Steps are divided by "_STEP_BREAK_" 
-        - Title and description are divided by "_LINK_BREAK_" 
+        - Title and description are divided by "_LINE_BREAK_" 
             - Title can be null, represented by "_BLANK_" 
 
 ## Image file names 
