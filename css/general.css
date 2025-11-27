@@ -151,7 +151,11 @@ body, body * {
 
 /* Buttons */
 
-a {
+button {
+    border: none;
+}
+
+a, button {
     align-items: center;
     border-radius: var(--gap24);
     cursor: pointer;
@@ -163,24 +167,24 @@ a {
     transition-property: background-color;
 }
 
-a > svg {
+a > svg, button > svg {
     height: var(--gap36);
 }
 
-a * {
+a *, button * {
     color: var(--white);
     fill: var(--white);
 }
 
-a.search {
+a.search, button.search {
     background-color: var(--apple-blue);
 }
 
-a.search:hover {
+a.search:hover, button.search:hover {
     background-color: var(--apple-indigo);
 }
 
-a.short {
+a.short, button.short {
     width: var(--gap48);
 }
 

@@ -1,0 +1,33 @@
+@import url('./short.css');
+
+main > h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gap24);
+    justify-content: center;
+}
+
+label {
+    display: none;
+}
+
+input {
+    border: var(--gap4) solid var(--black);
+    border-radius: var(--gap24);
+    cursor: pointer;
+    font-size: 1.5rem;
+    height: var(--gap48);
+    max-width: 18rem;
+    padding: 0 var(--gap24);
+    transition-property: border-color;
+}
+
+input:active {
+    border-color: var(--apple-indigo);
+}

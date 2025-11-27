@@ -10,6 +10,7 @@ a.card {
     background-color: var(--white);
     gap: 0;
     overflow: hidden;
+    transition-property: border-color;
     width: 100%;
 }
 
@@ -52,6 +53,10 @@ a.card > section > h2 {
 @media (23rem <= width) {
     a.card {
         border: var(--gap4) solid var(--black);
+    }
+
+    a.card:hover {
+        border-color: var(--apple-indigo);
     }
 }
 

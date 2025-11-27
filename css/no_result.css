@@ -1,25 +1,4 @@
-@import url('./general.css');
-
-body {
-    height: 100vh;
-    justify-content: space-between;
-}
-
-main {
-    align-items: center;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: var(--gap24);
-    justify-content: center;
-}
-
-@media (width < 26rem) {
-    main {padding: var(--gap8) var(--gap12);}
-}
-
-@media (26rem <= width) {
-    main {padding: var(--gap12) var(--gap24);}
-}
+@import url('./short.css');
 
 main > svg {
     fill: var(--apple-red);
