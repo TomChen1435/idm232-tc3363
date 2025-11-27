@@ -1,4 +1,11 @@
+@import url('./general.css');
+@import url('./cards.css');
+
 /* Card Grid */
+
+body {
+    justify-content: space-between;
+}
 
 main {
     align-self: center;
@@ -56,3 +63,21 @@ main {
 }
 
 /* Greetings Info */
+
+main > h1 {
+    grid-column: 1 / -1;
+    justify-self: center;
+    text-align: center;
+}
+
+@media (width < 23rem) {
+    main > h1 {
+        padding: var(--gap8) var(--gap12);
+    }
+}
+
+@media (23rem <= width) {
+    main > h1 {
+        padding: var(--gap16) var(--gap24);
+    }
+}
