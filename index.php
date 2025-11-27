@@ -20,6 +20,7 @@
     <?php include("components/header.php"); ?>
 
     <main>
+        <h1>How are we doing today&#63;</h1>
         <?php include("include/card_generator.php"); ?>
     </main>
 

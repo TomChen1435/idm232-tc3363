@@ -43,7 +43,7 @@
     <?php include("components/header.php"); ?>
 
     <main>
-        <h1>We&#39;ve found <?php echo $heading ?> per your search&#46;</h1>
+        <h1>We&#39;ve found <?php echo $heading ?> per your search for&#58; <?php echo $input_converted ?>&#46;</h1>
         <?php include("include/card_generator.php"); ?>
     </main>
 
