@@ -58,26 +58,26 @@ h2 {
     h2 {font-size: 1.625rem;}
 }
 
-p {
+p, li {
     font-weight: 400;
     line-height: 145%;
     max-width: 57rem;
 }
 
 @media (width < 28rem) {
-    p {font-size: 0.875rem;}
+    p, li {font-size: 0.875rem;}
 }
 
 @media (28rem <= width < 30.75rem) {
-    p {font-size: 1rem;}
+    p, li {font-size: 1rem;}
 }
 
 @media (30.75rem <= width < 33rem) {
-    p {font-size: 1.125rem;}
+    p, li {font-size: 1.125rem;}
 }
 
 @media (33rem <= width) {
-    p {font-size: 1.25rem;}
+    p, li {font-size: 1.25rem;}
 }
 
 /* Color */
@@ -195,6 +195,12 @@ a.long {
 
 a.long > h1 {
     font-size: 1.5rem;
+}
+
+/* Texts */
+
+p, li {
+    color: var(--black);
 }
 
 /* Header */

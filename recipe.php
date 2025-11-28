@@ -63,41 +63,49 @@
             </a>
         </div>
 
-        <p><?php echo $description ?></p>
+        <div class="part">
+            <section class="recipe">
+                <p><?php echo $description ?></p>
+            </section>
+        </div>
 
-        <section>
-            <h1>Ingredients</h1>
+        <div class="part">
+            <section class="recipe">
+                <h1>Ingredients</h1>
 
-            <picture>
-                <source srcset="<?php echo $img_string . "ingredients.avif" ?>" type="image/avif">
-                <img src="<?php echo $img_string . "ingredients.png" ?>" alt="<?php echo "Ingredients of" . $full_title ?>">
-            </picture>
+                <picture>
+                    <source srcset="<?php echo $img_string . "ingredients.avif" ?>" type="image/avif">
+                    <img src="<?php echo $img_string . "ingredients.png" ?>" alt="<?php echo "Ingredients of" . $full_title ?>">
+                </picture>
 
-            <ul><?php foreach ($ingredients_list as $ingredient) {
-                echo "<li>" . $ingredient . "</li>";
-            } ?></ul>
-        </section>
+                <ul><?php foreach ($ingredients_list as $ingredient) {
+                    echo "<li>" . $ingredient . "</li>";
+                } ?></ul>
+            </section>
+        </div>
+        
+        <div class="part">
+            <section class="recipe">
+                <h1>Kitchen Tools</h1>
 
-        <section>
-            <h1>Kitchen Tools</h1>
+                <picture>
+                    <?php
+                        $kt_large = $img_string . "large/kt";
+                        $kt_small = $img_string . "small/kt";
+                    ?>
 
-            <picture>
-                <?php
-                    $kt_large = $img_string . "large/kt";
-                    $kt_small = $img_string . "small/kt";
-                ?>
+                    <source srcset="<?php echo $kt_large . ".avif" ?> 2x, <?php echo $kt_small . ".avif" ?> 1x" type="image/avif">
 
-                <source srcset="<?php echo $kt_large . ".avif" ?> 2x, <?php echo $kt_small . ".avif" ?> 1x" type="image/avif">
+                    <source srcset="<?php echo $kt_large . ".jpg" ?> 2x, <?php echo $kt_small . ".jpg" ?> 1x" type="image/jpeg">
 
-                <source srcset="<?php echo $kt_large . ".jpg" ?> 2x, <?php echo $kt_small . ".jpg" ?> 1x" type="image/jpeg">
+                    <img src="<?php echo $kt_small . ".jpg" ?>" alt="<?php echo $kitchen_tools_list[0] ?>">
+                </picture>
 
-                <img src="<?php echo $kt_small . ".jpg" ?>" alt="<?php echo $kitchen_tools_list[0] ?>">
-            </picture>
+                <h2><?php echo $kitchen_tools_list[0] ?></h2>
 
-            <h2><?php echo $kitchen_tools_list[0] ?></h2>
-
-            <p><?php echo $kitchen_tools_list[1] ?></p>
-        </section>
+                <p><?php echo $kitchen_tools_list[1] ?></p>
+            </section>
+        </div>
 
         <?php for ($i = 0; $i < $num_steps; $i++) {
             $step_sequence = $i + 1;
@@ -106,21 +114,23 @@
             $img_small = $img_string . "small/step" . $step_sequence;
         ?>
 
-        <section>
-            <picture>
-                <source srcset="<?php echo $img_large . ".avif" ?> 2x, <?php echo $img_small . ".avif" ?> 1x" type="image/avif">
+        <div class="part">
+            <section class="recipe">
+                <picture>
+                    <source srcset="<?php echo $img_large . ".avif" ?> 2x, <?php echo $img_small . ".avif" ?> 1x" type="image/avif">
 
-                <source srcset="<?php echo $img_large . ".jpg" ?> 2x, <?php echo $img_small . ".jpg" ?> 1x" type="image/jpeg">
+                    <source srcset="<?php echo $img_large . ".jpg" ?> 2x, <?php echo $img_small . ".jpg" ?> 1x" type="image/jpeg">
 
-                <img src="<?php echo $img_small . ".jpg" ?>" alt="<?php echo "Step" . $step_sequence ?>">
-            </picture>
+                    <img src="<?php echo $img_small . ".jpg" ?>" alt="<?php echo "Step" . $step_sequence ?>">
+                </picture>
 
-            <?php if ($steps_list[$i][0] != "_BLANK_") {
-                echo "<h1>" . $steps_list[$i][0] . "</h1>";
-            } ?>
+                <?php if ($steps_list[$i][0] != "_BLANK_") {
+                    echo "<h1>" . $steps_list[$i][0] . "</h1>";
+                } ?>
 
-            <p><?php echo $steps_list[$i][1] ?></p>
-        </section>
+                <p><?php echo $steps_list[$i][1] ?></p>
+            </section>
+        </div>
 
         <?php } ?>
     </main>

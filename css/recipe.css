@@ -1,2 +1,129 @@
 @import url('./general.css');
 @import url('./cards.css');
+
+/* Card Grid */
+
+body {
+    justify-content: space-between;
+}
+
+main {
+    align-self: center;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: 1fr;
+    max-width: 52rem;
+    width: 100%;
+}
+
+/* Gaps and Paddings */
+
+@media (width < 23rem) {
+    main {
+        padding: var(--gap12) 0;
+    }
+}
+
+@media (23rem <= width < 26rem) {
+    main {
+        padding: var(--gap12);
+    }
+}
+
+@media (width < 26rem) {
+    main {
+        gap: var(--gap12);
+    }
+}
+
+@media (26rem <= width) {
+    main {
+        gap: var(--gap24);
+        padding: var(--gap24);
+    }
+}
+
+main > * {
+    width: 100%;
+}
+
+div.part {
+    container-name: part;
+    container-type: inline-size;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+section.recipe {
+    align-self: center;
+    background-color: var(--white);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+section.recipe > picture, section.recipe > picture * {
+    align-self: center;
+    justify-self: center;
+    height: auto;
+    max-height: 50vh;
+    max-width: 40rem;
+    object-fit: contain;
+    width: 100%;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: var(--gap24);
+}
+
+/* Container Queries */
+
+@media (width < 23rem) {
+    section.recipe {
+        border-radius: 0 !important;
+    }
+}
+
+@container part (width < 23rem) {
+    section.recipe {
+        border-radius: var(--gap12);
+        gap: var(--gap8);
+        padding: var(--gap12);
+    }
+}
+
+@container part (23rem <= width < 27.75rem) {
+    section.recipe {
+        border-radius: var(--gap16);
+        gap: var(--gap12);
+        padding: var(--gap16);
+    }
+}
+
+@container part (27.75rem <= width) {
+    section.recipe {
+        border-radius: var(--gap24);
+    }
+}
+
+@container part (27.75rem <= width < 30rem) {
+    section.recipe {
+        gap: var(--gap12);
+        padding: var(--gap24);
+    }
+}
+
+@container part (30rem <= width < 34.5rem) {
+    section.recipe {
+        gap: var(--gap16);
+        padding: var(--gap24);
+    }
+}
+
+@container part (34.5rem <= width) {
+    section.recipe {
+        gap: var(--gap24);
+        padding: var(--gap24);
+    }
+}
