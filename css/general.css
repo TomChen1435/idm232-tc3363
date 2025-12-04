@@ -25,14 +25,6 @@ h1, h2 {
     max-width: 60rem;
 }
 
-h1 {
-    color: var(--black);
-}
-
-h2 {
-    color: var(--ios-gray-1);
-}
-
 @media (width < 33rem) {
     h1 {font-size: 1.375rem;}
     h2 {font-size: 1.125rem;}
@@ -112,6 +104,14 @@ p, li {
         --black: oklab(0.99 0 0);
         --white: oklab(0.01 0 0);
     }
+}
+
+h1 {
+    color: var(--black);
+}
+
+h2 {
+    color: var(--ios-gray-1);
 }
 
 /* Constraint Variables */
