@@ -9,7 +9,7 @@
 - Buttons
     - Search button
         - In header: go to SEARCH
-        - In search: do to FILTER or NO_RESULT
+        - In search: do to SEARCH_RESULT or NO_RESULT
     - Search_again button: go to SEARCH
 - Cards: go to corresponded RECIPE
 - Header
@@ -19,7 +19,7 @@
 
 ## Page Structure
 
-Core concepts: browsing, searching, and filtering through the recipes
+Core concepts: browsing, searching, and search_resulting through the recipes
 
 - HOME
     - Greeting message
@@ -43,7 +43,7 @@ Core concepts: browsing, searching, and filtering through the recipes
     - Form
         - Input
         - Search button
-- FILTER
+- SEARCH_RESULT
     - Summary message
     - Cards grid
 - NO_RESULT

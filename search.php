@@ -14,7 +14,7 @@
         <h1>What are we craving today&#63;</h1>
 
         <search>
-            <form action="filter.php" method="get">
+            <form action="search_result.php" method="get">
                 <label for="search-bar">Search for Recipes</label>
                 <input id="search-bar" type="search" name="q" placeholder="Search for Recipes">
                 <?php include("components/search_bar_btn.php"); ?>
