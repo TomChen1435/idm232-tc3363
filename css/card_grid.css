@@ -11,6 +11,7 @@ main {
     align-self: center;
     display: grid;
     grid-auto-rows: auto;
+    justify-items: center;
     max-width: 130rem;
     width: 100%;
 }
@@ -66,18 +67,21 @@ main {
 
 main > h1 {
     grid-column: 1 / -1;
-    justify-self: center;
+    grid-row: 1;
     text-align: center;
 }
 
-@media (width < 23rem) {
-    main > h1 {
-        padding: var(--gap8) var(--gap12);
-    }
+main > a.category.long {
+    grid-column: 1 / -1;
+    grid-row: 2;
 }
 
-@media (23rem <= width) {
-    main > h1 {
-        padding: var(--gap16) var(--gap24);
-    }
+main > section.filter_btns {
+    display: flex;
+    flex-flow: row wrap;
+    gap: var(--gap8);
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-content: center;
+    width: 100%;
 }

@@ -80,8 +80,9 @@ p, li {
         --apple-blue: rgb(0,136,255);
         --apple-indigo: rgb(97,85,245);
 
-        --ios-gray-1: rgb(142,142,147);
-        --ios-gray-5: rgb(229,229,234);
+        --ios-gray-2: rgb(174,174,178);
+        --ios-gray-2-alt: rgb(99,99,102);
+        --ios-gray-5: rgb(0, 0, 0);
         --ios-gray-6: rgb(242,242,247);
         --ios-gray-6-alt: rgb(28,28,30);
 
@@ -96,7 +97,8 @@ p, li {
         --apple-blue: rgb(0,145,255);
         --apple-indigo: rgb(109,124,255);
 
-        --ios-gray-1: rgb(142,142,147);
+        --ios-gray-2: rgb(99,99,102);
+        --ios-gray-2-alt: rgb(174,174,178);
         --ios-gray-5: rgb(44,44,46);
         --ios-gray-6: rgb(28,28,30);
         --ios-gray-6-alt: rgb(242,242,247);
@@ -111,7 +113,7 @@ h1 {
 }
 
 h2 {
-    color: var(--ios-gray-1);
+    color: var(--ios-gray-2-alt);
 }
 
 /* Constraint Variables */
@@ -176,11 +178,11 @@ a *, button * {
     fill: var(--white);
 }
 
-a.search, button.search {
+a.search, button.search, a.category {
     background-color: var(--apple-blue);
 }
 
-a.search:hover, button.search:hover {
+a.search:hover, button.search:hover, a.category:hover {
     background-color: var(--apple-indigo);
 }
 
@@ -191,6 +193,10 @@ a.short, button.short {
 a.long {
     gap: var(--gap8);
     padding: 0 var(--gap24) 0 var(--gap16);
+}
+
+a.category.long {
+    padding: 0 var(--gap16);
 }
 
 a.long > h1 {

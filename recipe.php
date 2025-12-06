@@ -9,7 +9,7 @@
     $result = $stmt->get_result();
 
     if ($recipe = $result->fetch_object()) {
-        $sequence = $recipe_id - 1;
+        $sequence = $recipe_id;
         $img_string = "images/" . $sequence . "/";
 
         $title = $recipe->title;

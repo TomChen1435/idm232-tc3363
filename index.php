@@ -1,7 +1,7 @@
 <?php
     include("include/database.php");
 
-    $stmt = $connection->prepare("SELECT id, title, subtitle FROM idm232");
+    $stmt = $connection->prepare("SELECT id, category, title, subtitle FROM idm232");
 
     $stmt->execute();
     $result = $stmt->get_result();
@@ -21,6 +21,11 @@
 
     <main>
         <h1>How are we doing today&#63;</h1>
+
+        <a href="filter.php" class="category long">
+            <h1>Filter by Category</h1>
+        </a>
+
         <?php include("include/card_generator.php"); ?>
     </main>
 

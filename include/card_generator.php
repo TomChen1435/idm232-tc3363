@@ -1,7 +1,7 @@
 <?php 
     while ($row = $result->fetch_assoc()) {
         $recipe_id = $row["id"];
-        $sequence = $recipe_id - 1;
+        $sequence = $recipe_id;
         $banner = "images/" . $sequence . "/banner."; 
         $title = $row["title"];
         $subtitle = $row["subtitle"];

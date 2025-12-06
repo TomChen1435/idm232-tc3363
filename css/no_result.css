@@ -18,13 +18,13 @@ section.btns {
 }
 
 a.home-inpage {
-    border: var(--gap4) solid var(--ios-gray-1);
+    border: var(--gap4) solid var(--ios-gray-2-alt);
     transition-property: all;
 }
 
 a.home-inpage * {
-    color: var(--ios-gray-1);
-    fill: var(--ios-gray-1);
+    color: var(--ios-gray-2-alt);
+    fill: var(--ios-gray-2-alt);
 }
 
 a.home-inpage:hover {
