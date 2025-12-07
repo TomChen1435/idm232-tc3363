@@ -1,8 +1,7 @@
 # idm232-tc3363
 
-## Design
-
-[Figma design file](https://www.figma.com/design/JP64jvvgcEihcjTY9Yq5db/IDM-232?node-id=0-1&t=6T7ndyUQuFGd6oRu-1)
+[Link to the Website](
+https://digmstudents.westphal.drexel.edu/~tc3363/idm232-tc3363/)
 
 ## Components
 
