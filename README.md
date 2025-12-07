@@ -23,7 +23,7 @@ Core concepts: browsing, searching, and search_resulting through the recipes
 
 - HOME
     - Greeting message
-    - Filter buttons
+    - Filter button
     - Cards grid
 - RECIPE
     - Card
@@ -44,7 +44,10 @@ Core concepts: browsing, searching, and search_resulting through the recipes
     - Form
         - Input
         - Search button
-- SEARCH_RESULT
+- FILTER
+    - Greeting message
+    - Category buttons
+- SEARCH_RESULT & FILTER_RESULT
     - Summary message
     - Cards grid
 - NO_RESULT
