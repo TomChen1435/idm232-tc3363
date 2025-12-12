@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IDM 232: Case Study</title>
-    <link rel="stylesheet" href="../css/recipe.css">
+    <link rel="stylesheet" href="css/recipe.css">
 </head>
 <body>
 
